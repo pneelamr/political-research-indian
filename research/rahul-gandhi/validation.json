@@ -1,0 +1,293 @@
+{
+  "subject": "Rahul Gandhi",
+  "file": "Rahul_Gandhi_Political_Research.xlsx",
+  "workbook_sha256": "93669cf5b6d021a56394d6be2f2c2294949b99e18ebf6fd035c18efa1d76b42a",
+  "checks": {
+    "structure": "PASS",
+    "provenance_integrity": "PASS",
+    "arithmetic": "PASS: expectations calculated independently in Python",
+    "application_recalculation": "PASS",
+    "visual_inspection": "PASS: sampled default-view regions of all 14 sheets",
+    "application_error_cells": "PASS: no error-valued cells in recalculated export"
+  },
+  "evidence": {
+    "registered_fields": 210,
+    "status_counts": {
+      "Supported": 201,
+      "Not reviewed": 9
+    },
+    "note": "These are review units, not a percentage of historical truth or complete atomic-claim coverage."
+  },
+  "sheets": {
+    "Overview": 26,
+    "Context & Constraints": 50,
+    "Career Timeline": 25,
+    "Elections": 7,
+    "Offices & Party": 13,
+    "Policy & Governance": 13,
+    "Ideas & Political Method": 12,
+    "Controversies": 7,
+    "Legacy & Assessments": 6,
+    "Sources": 43,
+    "Claims": 210,
+    "Evidence": 371,
+    "Citations": 285,
+    "Research Queue": 11
+  },
+  "hyperlinks_checked": 2949,
+  "formula_checks": [
+    {
+      "sheet": "Elections",
+      "cell": "F6",
+      "formula": "=E6-L6",
+      "expected": 290853,
+      "record_id": "EL01",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "F7",
+      "formula": "=E7-L7",
+      "expected": 370198,
+      "record_id": "EL02",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "F8",
+      "formula": "=E8-L8",
+      "expected": 107903,
+      "record_id": "EL03",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "F9",
+      "formula": "=E9-L9",
+      "expected": -55120,
+      "record_id": "EL04",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "F10",
+      "formula": "=E10-L10",
+      "expected": 431770,
+      "record_id": "EL05",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "F11",
+      "formula": "=E11-L11",
+      "expected": 390030,
+      "record_id": "EL06",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "F12",
+      "formula": "=E12-L12",
+      "expected": 364422,
+      "record_id": "EL07",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C24",
+      "formula": "=COUNTIF(Claims!D6:D215,\"Supported\")",
+      "expected": 201,
+      "record_id": "QA01",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C25",
+      "formula": "=COUNTA(Claims!A6:A215)",
+      "expected": 210,
+      "record_id": "QA02",
+      "column": "Finding / value"
+    }
+  ],
+  "limitations": [
+    "Formula caches are not manufactured; the delivery workbook requests recalculation on opening.",
+    "Passage review covers 210 registered fields: 201 supported facts, attributed statements or bounded syntheses; nine context research gaps remain unreviewed. This is not full atomic-claim coverage.",
+    "Research Queue records unresolved election denominators, primary legal orders, attribution and other coverage gaps.",
+    "Default visible columns and specified regions. Supplemental grouped columns and every intermediate row were not exhaustively visually inspected; original XLSX retained, not replaced by Numbers export."
+  ],
+  "application": {
+    "engine": "Numbers Creator Studio",
+    "export_sha256": "82a66fecc168cc204e373db8bb4a05963fc4014d04d4d349ed3f9dad84277939",
+    "results": [
+      {
+        "record_id": "EL01",
+        "sheet": "Elections",
+        "cell": "F6",
+        "engine_value": 290853
+      },
+      {
+        "record_id": "EL02",
+        "sheet": "Elections",
+        "cell": "F7",
+        "engine_value": 370198
+      },
+      {
+        "record_id": "EL03",
+        "sheet": "Elections",
+        "cell": "F8",
+        "engine_value": 107903
+      },
+      {
+        "record_id": "EL04",
+        "sheet": "Elections",
+        "cell": "F9",
+        "engine_value": -55120
+      },
+      {
+        "record_id": "EL05",
+        "sheet": "Elections",
+        "cell": "F10",
+        "engine_value": 431770
+      },
+      {
+        "record_id": "EL06",
+        "sheet": "Elections",
+        "cell": "F11",
+        "engine_value": 390030
+      },
+      {
+        "record_id": "EL07",
+        "sheet": "Elections",
+        "cell": "F12",
+        "engine_value": 364422
+      },
+      {
+        "record_id": "QA01",
+        "sheet": "Overview",
+        "cell": "C24",
+        "engine_value": 201
+      },
+      {
+        "record_id": "QA02",
+        "sheet": "Overview",
+        "cell": "C25",
+        "engine_value": 210
+      }
+    ]
+  },
+  "visual": {
+    "engine": "Numbers Creator Studio PDF export; PDFKit rasterization of original page geometry",
+    "workbook_sha256": "93669cf5b6d021a56394d6be2f2c2294949b99e18ebf6fd035c18efa1d76b42a",
+    "pdf_sha256": "7c7dfc9e51fd5ee543a8b59ab6e8d186481ca17d5c9438a0ff181548a4779dac",
+    "review_date": "2026-09-24",
+    "reviewer": "Codex visual inspection",
+    "regions": [
+      {
+        "sheet": "Overview",
+        "pdf_page": 1,
+        "regions": [
+          "top",
+          "bottom"
+        ]
+      },
+      {
+        "sheet": "Context & Constraints",
+        "pdf_page": 2,
+        "regions": [
+          "top",
+          "bottom"
+        ]
+      },
+      {
+        "sheet": "Career Timeline",
+        "pdf_page": 3,
+        "regions": [
+          "top"
+        ]
+      },
+      {
+        "sheet": "Elections",
+        "pdf_page": 4,
+        "regions": [
+          "top"
+        ]
+      },
+      {
+        "sheet": "Offices & Party",
+        "pdf_page": 5,
+        "regions": [
+          "top"
+        ]
+      },
+      {
+        "sheet": "Policy & Governance",
+        "pdf_page": 6,
+        "regions": [
+          "top"
+        ]
+      },
+      {
+        "sheet": "Ideas & Political Method",
+        "pdf_page": 7,
+        "regions": [
+          "top"
+        ]
+      },
+      {
+        "sheet": "Controversies",
+        "pdf_page": 8,
+        "regions": [
+          "top"
+        ]
+      },
+      {
+        "sheet": "Legacy & Assessments",
+        "pdf_page": 9,
+        "regions": [
+          "top"
+        ]
+      },
+      {
+        "sheet": "Sources",
+        "pdf_page": 10,
+        "regions": [
+          "top",
+          "middle"
+        ]
+      },
+      {
+        "sheet": "Claims",
+        "pdf_page": 11,
+        "regions": [
+          "top",
+          "bottom"
+        ]
+      },
+      {
+        "sheet": "Evidence",
+        "pdf_page": 12,
+        "regions": [
+          "top",
+          "middle"
+        ]
+      },
+      {
+        "sheet": "Citations",
+        "pdf_page": 13,
+        "regions": [
+          "top",
+          "bottom"
+        ]
+      },
+      {
+        "sheet": "Research Queue",
+        "pdf_page": 14,
+        "regions": [
+          "top"
+        ]
+      }
+    ],
+    "findings": "Inspected headers, findings, review status, citation links, numeric results and long-text examples. No cell clipping or overlap observed in inspected regions. Text cut by crop boundaries is outside that sampled region.",
+    "scope_limit": "Default visible columns and specified regions. Supplemental grouped columns and every intermediate row were not exhaustively visually inspected; original XLSX retained, not replaced by Numbers export."
+  }
+}
