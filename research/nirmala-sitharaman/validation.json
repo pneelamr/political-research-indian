@@ -1,0 +1,105 @@
+{
+  "subject": "Nirmala Sitharaman",
+  "file": "Nirmala_Sitharaman_Political_Research.xlsx",
+  "workbook_sha256": "27b01f7a72200fa30749a01be9705770c01c83438c3b86008460f0b2f312145a",
+  "checks": {
+    "structure": "PASS",
+    "provenance_integrity": "PASS",
+    "arithmetic": "PASS: expectations calculated independently in Python",
+    "application_recalculation": "PASS",
+    "visual_inspection": "PASS: all 14 sheets; headers and sampled dense regions reviewed in Numbers PDF export",
+    "archive_integrity": "PASS",
+    "pdf_record_presence": "PASS: 156 authored records present in rendered sheet text"
+  },
+  "evidence": {
+    "registered_fields": 242,
+    "status_counts": {
+      "Supported": 242
+    },
+    "note": "These are review units, not a percentage of historical truth or complete atomic-claim coverage."
+  },
+  "sheets": {
+    "Overview": 25,
+    "Context & Constraints": 50,
+    "Career Timeline": 24,
+    "Elections": 4,
+    "Offices & Party": 13,
+    "Policy & Governance": 24,
+    "Ideas & Political Method": 10,
+    "Controversies": 6,
+    "Legacy & Assessments": 8,
+    "Sources": 45,
+    "Claims": 242,
+    "Evidence": 454,
+    "Citations": 310,
+    "Research Queue": 9
+  },
+  "hyperlinks_checked": 3397,
+  "formula_checks": [
+    {
+      "sheet": "Overview",
+      "cell": "C23",
+      "formula": "=COUNTIF(Claims!D6:D247,\"Supported\")",
+      "expected": 242,
+      "record_id": "QA01",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C24",
+      "formula": "=COUNTA(Claims!A6:A247)",
+      "expected": 242,
+      "record_id": "QA02",
+      "column": "Finding / value"
+    }
+  ],
+  "limitations": [
+    "No formula caches manufactured; formula results checked in an actual Numbers export.",
+    "Supported indicates registered field review, not exhaustive atomic-claim coverage or certainty about causal conclusions.",
+    "Visual inspection samples regions rather than every cell.",
+    "Eight unresolved research questions remain explicitly marked in the Research Queue."
+  ],
+  "application": {
+    "engine": "Numbers Creator Studio",
+    "export_sha256": "ec668a5151e57f9ca134d753bdac1721906f1f30d006fbaf73ac378de733c972",
+    "results": [
+      {
+        "record_id": "QA01",
+        "sheet": "Overview",
+        "cell": "C23",
+        "engine_value": 242
+      },
+      {
+        "record_id": "QA02",
+        "sheet": "Overview",
+        "cell": "C24",
+        "engine_value": 242
+      }
+    ]
+  },
+  "visual_inspection": {
+    "engine": "Numbers Creator Studio PDF export; PDFKit raster rendering",
+    "review_date": "2026-09-24",
+    "workbook_sha256": "27b01f7a72200fa30749a01be9705770c01c83438c3b86008460f0b2f312145a",
+    "pdf_sha256": "f73b2d10bcc6a1592bd9b38e246815fbd0776a15ba226a16ec917111d5343bfb",
+    "sheets_reviewed": [
+      "Overview",
+      "Context & Constraints",
+      "Career Timeline",
+      "Elections",
+      "Offices & Party",
+      "Policy & Governance",
+      "Ideas & Political Method",
+      "Controversies",
+      "Legacy & Assessments",
+      "Sources",
+      "Claims",
+      "Evidence",
+      "Citations",
+      "Research Queue"
+    ],
+    "scope": "All 14 sheet headers and first records; selected middle and bottom regions in dense registers. Final changed sheets and new court/election entries inspected; unchanged sheet text compared with earlier reviewed export.",
+    "findings": "Sampled text wraps, row heights, links, labels and numeric units were readable, with no observed cell clipping or overlap. Raster viewport edges can cut through rows; these are inspection crops, not sheet clipping.",
+    "limitations": "Visual inspection samples regions rather than every cell. PDF text checks establish record presence, not complete visual readability."
+  }
+}
