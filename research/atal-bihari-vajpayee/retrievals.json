@@ -1,0 +1,62 @@
+[
+  {
+    "id": "R001",
+    "source_id": "S01",
+    "url": "https://www.pmindia.gov.in/en/former_pm/shri-atal-bihari-vajpayee/",
+    "accessed_at": "2026-09-24",
+    "access_status": "Passage inspected",
+    "route": "official",
+    "origin_id": "S01",
+    "locator": "Biography paragraph beginning Born; lines 74 in the web extraction",
+    "passage_paraphrase": "Biography records a birth date of 25 December 1924 in Gwalior, then a princely state.",
+    "method": "web.open; relevant passage read",
+    "query": null,
+    "result": "PMO biography",
+    "next_action": "Reuse for these stable historical dates; re-fetch only if the claim or source changes."
+  },
+  {
+    "id": "R002",
+    "source_id": "S04",
+    "url": "https://www.pmindia.gov.in/en/former-prime-ministers/",
+    "accessed_at": "2026-09-24",
+    "access_status": "Passage inspected",
+    "route": "official",
+    "origin_id": "S04",
+    "locator": "Former PM list; two Vajpayee entries, lines 78–80 and 105–107",
+    "passage_paraphrase": "PMO gives formal tenures 16 May–1 June 1996 and 19 March 1998–22 May 2004.",
+    "method": "web.open; relevant passage read",
+    "query": null,
+    "result": "PMO tenure list",
+    "next_action": "Reuse for these stable historical dates; re-fetch only if the claim or source changes."
+  },
+  {
+    "id": "R003",
+    "source_id": "S67",
+    "url": "https://www.mea.gov.in/fr_eams.htm",
+    "accessed_at": "2026-09-24",
+    "access_status": "Passage inspected",
+    "route": "official",
+    "origin_id": "S67",
+    "locator": "Former EAM table, row 10; lines 194–196",
+    "passage_paraphrase": "MEA lists three spells: 26 March 1977–28 July 1979; 16–21 May 1996; 19 March–5 December 1998.",
+    "method": "web.open; relevant passage read",
+    "query": null,
+    "result": "MEA tenure table",
+    "next_action": "Reuse for these stable historical dates; re-fetch only if the claim or source changes."
+  },
+  {
+    "id": "R004",
+    "source_id": "S67",
+    "url": "https://www.mea.gov.in/previous-foreign-ministers.htm",
+    "accessed_at": "2026-09-24",
+    "access_status": "Unavailable",
+    "route": "official",
+    "origin_id": "S67",
+    "locator": "",
+    "passage_paraphrase": "",
+    "method": "web.open",
+    "query": null,
+    "result": "Guessed URL inaccessible; canonical URL in source register succeeded (R003).",
+    "next_action": "Reuse R003; do not retry this guessed address."
+  }
+]

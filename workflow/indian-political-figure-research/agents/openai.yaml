@@ -1,0 +1,14 @@
+interface:
+  display_name: Indian Political Figure Research
+  short_description: Source-backed Indian political research workbooks
+  default_prompt: Use $indian-political-figure-research to research Atal Bihari Vajpayee
+    and create a cited Excel workbook.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

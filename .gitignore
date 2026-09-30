@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+research/*/qa/
+indian-political-figure-research.zip

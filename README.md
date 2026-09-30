@@ -6,6 +6,7 @@ Source-backed Excel research workbooks on Indian political figures, covering the
 
 | Figure | Workbook | Research date |
 | --- | --- | --- |
+| Atal Bihari Vajpayee | [Vajpayee political research](Atal_Bihari_Vajpayee_Political_Research.xlsx) | 24 September 2026 |
 | K. Chandrashekar Rao (KCR) | [KCR political research](KCR_Political_Research.xlsx) | 15 September 2026 |
 | M. Karunanidhi | [Karunanidhi political research](M_Karunanidhi_Political_Research.xlsx) | 14 September 2026 |
 | Mamata Banerjee | [Banerjee political research](Mamata_Banerjee_Political_Research.xlsx) | 30 September 2026 |
@@ -20,12 +21,12 @@ Research dates indicate each workbook's stated cutoff or evidence-access date, n
 
 1. Download a workbook and open it in an application that supports `.xlsx` files, such as Microsoft Excel or LibreOffice Calc.
 2. Start with **Overview**, then use the detailed worksheets and table filters to explore a topic or career phase.
-3. Follow each record's source IDs to **Sources** for citations, links, and evidence limitations. Source IDs are local to each workbook. In the Rahul Gandhi, Nirmala Sitharaman and Mamata Banerjee workbooks, **All citations** opens every cited source link and **Claims** shows which fields have passage evidence.
-4. Read claim types, procedural status, and qualification notes alongside the findings. Scroll right to see the supporting fields; in the Rahul Gandhi, Nirmala Sitharaman and Mamata Banerjee workbooks, expand the **+** column group.
+3. Follow each record's source IDs to **Sources** for citations, links, and evidence limitations. Source IDs are local to each workbook. In the Vajpayee, Rahul Gandhi, Nirmala Sitharaman and Mamata Banerjee workbooks, **All citations** opens every cited source link and **Claims** shows which fields have passage evidence.
+4. Read claim types, procedural status, and qualification notes alongside the findings. In those four workbooks, expand the **+** column group for supporting fields; the initial view prioritizes findings and review status.
 
 ## Workbook structure
 
-All seven workbooks contain these worksheets; column layouts and depth vary by subject.
+All eight workbooks contain these worksheets; column layouts and depth vary by subject.
 
 | Worksheet | Coverage |
 | --- | --- |
@@ -48,12 +49,25 @@ An allegation is not a conviction, a policy announcement is not an implemented o
 
 These are research snapshots, not exhaustive biographies or live datasets. Coverage gaps, conflicting records, and access limitations are noted within the workbooks. Verify time-sensitive claims against the cited records before relying on them, and distinguish publication dates from the periods the data describe.
 
-The Rahul Gandhi workbook adds **Claims**, **Evidence**, **Citations**, and **Research Queue**. Its [research records](research/rahul-gandhi/research.json) and [retrieval register](research/rahul-gandhi/retrievals.json) preserve 210 registered fields: 201 supported passage checks or bounded syntheses, and nine unreviewed context gaps. These are review units, not a completeness or truth score. Its [validation report](research/rahul-gandhi/validation.json) records structural and arithmetic checks, recalculation in Numbers, and sampled layout inspection of all 14 sheets. Formula cells recalculate on opening.
+The revised Vajpayee workbook adds **Claims**, **Evidence**, **Citations**, and **Research Queue**. Its 823 field-level assertions include 18 with newly recorded passage checks; the remaining 805 retain their earlier citations but are marked **Not reviewed** under the new evidence register. This describes documented review coverage, not the number of true or false historical claims. Compound fields require all their propositions to be checked before support is recorded. Methodology rows no longer cite the entire source list.
+
+## Rebuilding and checking
+
+The Vajpayee research is preserved in [research.json](research/atal-bihari-vajpayee/research.json), with inspected passages and unsuccessful retrievals in [retrievals.json](research/atal-bihari-vajpayee/retrievals.json). Rahul Gandhi's [research records](research/rahul-gandhi/research.json) and [retrieval register](research/rahul-gandhi/retrievals.json) use the same format: 210 registered fields, 201 supported passage checks or bounded syntheses, and nine unreviewed context gaps. These are review units, not a completeness or truth score. The reusable [research skill](workflow/indian-political-figure-research/SKILL.md) includes the builder and [pipeline instructions](workflow/indian-political-figure-research/references/pipeline.md). The remaining four workbooks have not been migrated.
 
 Nirmala Sitharaman's [research records](research/nirmala-sitharaman/research.json) and [retrieval register](research/nirmala-sitharaman/retrievals.json) contain 45 sources and 242 reviewed fields, including explicitly bounded analysis. The research queue records eight open questions and one resolved document gap. Rajya Sabha counts are legislator votes; popular vote shares and single-opponent margins are inapplicable. Her [validation report](research/nirmala-sitharaman/validation.json) records the checks on the delivered workbook.
 
 Mamata Banerjee's [research records](research/mamata-banerjee/research.json) and [retrieval register](research/mamata-banerjee/retrievals.json) cover five career phases, 13 personal elections and a 56-source register. Of 319 registered fields, 308 have passage support or bounded synthesis and 11 remain unreviewed. Ten research-queue entries preserve gaps in original returns, short ministerial tenures, recent legal outcomes and policy effects. The cutoff includes the 2026 government transition and September 28 reporting on the party-name dispute; the reported timetable and interim arrangements are distinguished from final decisions. See her [validation report](research/mamata-banerjee/validation.json) for workbook checks.
 
+With Python 3.10+ and the dependencies in `requirements-research.txt` installed:
+
+```sh
+python workflow/indian-political-figure-research/scripts/research_workbook.py research/atal-bihari-vajpayee/research.json --output Atal_Bihari_Vajpayee_Political_Research.xlsx
+python -m unittest discover -s tests -v
+```
+
+The [validation report](research/atal-bihari-vajpayee/validation.json) separates structural checks, arithmetic, evidence review, application recalculation and visual inspection. A rebuild resets the last two checks until they are rerun on that workbook. The optional Numbers script exports disposable QA copies; the recalculation checker compares actual engine values against independent expectations. Formula caches are not fabricated: spreadsheet applications calculate the delivery workbook on opening, while viewers relying exclusively on stored caches may show blank formula cells.
+
 ## Repository scope
 
-This repository contains research workbooks, documentation, and supporting research records. Local research-skill files and ZIP archives are excluded.
+This repository contains research workbooks, reproducible research records, a maintained workflow skill, and its validation tests. Machine-specific QA exports, Python caches and the original skill ZIP archive are excluded. The archive itself is left unchanged.

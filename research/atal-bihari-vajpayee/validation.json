@@ -1,0 +1,340 @@
+{
+  "subject": "Atal Bihari Vajpayee",
+  "file": "Atal_Bihari_Vajpayee_Political_Research.xlsx",
+  "workbook_sha256": "6a7c1ce80151160bfc9e9360e07b17736d29ed9cbd10509e83e810573322a68e",
+  "checks": {
+    "structure": "PASS",
+    "provenance_integrity": "PASS",
+    "arithmetic": "PASS: expectations calculated independently in Python",
+    "application_recalculation": "PASS",
+    "visual_inspection": "PASS for sampled visible regions; expanded detail columns NOT INSPECTED"
+  },
+  "evidence": {
+    "registered_fields": 823,
+    "status_counts": {
+      "Not reviewed": 805,
+      "Supported": 18
+    },
+    "note": "These are review units, not a percentage of historical truth or complete atomic-claim coverage."
+  },
+  "sheets": {
+    "Overview": 33,
+    "Context & Constraints": 70,
+    "Career Timeline": 38,
+    "Elections": 20,
+    "Offices & Party": 29,
+    "Policy & Governance": 26,
+    "Ideas & Political Method": 16,
+    "Controversies": 11,
+    "Legacy & Assessments": 12,
+    "Sources": 83,
+    "Claims": 823,
+    "Evidence": 18,
+    "Citations": 505,
+    "Research Queue": 3
+  },
+  "hyperlinks_checked": 3798,
+  "formula_checks": [
+    {
+      "sheet": "Elections",
+      "cell": "N9",
+      "formula": "=J9-M9",
+      "expected": -71582,
+      "record_id": "EL04",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N10",
+      "formula": "=J10-M10",
+      "expected": -2052,
+      "record_id": "EL05",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N11",
+      "formula": "=J11-M11",
+      "expected": -30017,
+      "record_id": "EL06",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N17",
+      "formula": "=J17-M17",
+      "expected": -175594,
+      "record_id": "EL12",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N19",
+      "formula": "=J19-M19",
+      "expected": 117303,
+      "record_id": "EL14",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N21",
+      "formula": "=J21-M21",
+      "expected": 118671,
+      "record_id": "EL16",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N22",
+      "formula": "=J22-M22",
+      "expected": 188872,
+      "record_id": "EL17",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N23",
+      "formula": "=J23-M23",
+      "expected": 216263,
+      "record_id": "EL18",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N24",
+      "formula": "=J24-M24",
+      "expected": 123624,
+      "record_id": "EL19",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N25",
+      "formula": "=J25-M25",
+      "expected": 218375,
+      "record_id": "EL20",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C31",
+      "formula": "=COUNTIF(Claims!D6:D828,\"Supported\")",
+      "expected": 18,
+      "record_id": "QA01",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C32",
+      "formula": "=COUNTA(Claims!A6:A828)",
+      "expected": 823,
+      "record_id": "QA02",
+      "column": "Finding / value"
+    }
+  ],
+  "limitations": [
+    "No formula caches manufactured.",
+    "Row-height estimates are not a visual check.",
+    "Source presence does not certify factual support; inherited claim types await review."
+  ],
+  "application": {
+    "engine": "Numbers Creator Studio",
+    "export_sha256": "94118d61075358d30d7f407f68661bf7dda5b934736cf24a99a3e3e5800fe757",
+    "results": [
+      {
+        "record_id": "EL04",
+        "sheet": "Elections",
+        "cell": "N9",
+        "engine_value": -71582
+      },
+      {
+        "record_id": "EL05",
+        "sheet": "Elections",
+        "cell": "N10",
+        "engine_value": -2052
+      },
+      {
+        "record_id": "EL06",
+        "sheet": "Elections",
+        "cell": "N11",
+        "engine_value": -30017
+      },
+      {
+        "record_id": "EL12",
+        "sheet": "Elections",
+        "cell": "N17",
+        "engine_value": -175594
+      },
+      {
+        "record_id": "EL14",
+        "sheet": "Elections",
+        "cell": "N19",
+        "engine_value": 117303
+      },
+      {
+        "record_id": "EL16",
+        "sheet": "Elections",
+        "cell": "N21",
+        "engine_value": 118671
+      },
+      {
+        "record_id": "EL17",
+        "sheet": "Elections",
+        "cell": "N22",
+        "engine_value": 188872
+      },
+      {
+        "record_id": "EL18",
+        "sheet": "Elections",
+        "cell": "N23",
+        "engine_value": 216263
+      },
+      {
+        "record_id": "EL19",
+        "sheet": "Elections",
+        "cell": "N24",
+        "engine_value": 123624
+      },
+      {
+        "record_id": "EL20",
+        "sheet": "Elections",
+        "cell": "N25",
+        "engine_value": 218375
+      },
+      {
+        "record_id": "QA01",
+        "sheet": "Overview",
+        "cell": "C31",
+        "engine_value": 18
+      },
+      {
+        "record_id": "QA02",
+        "sheet": "Overview",
+        "cell": "C32",
+        "engine_value": 823
+      }
+    ],
+    "version": "15.3.1"
+  },
+  "visual_inspection": {
+    "engine": "Numbers Creator Studio 15.3.1",
+    "pdf_sha256": "897ed077ed065d728c36b2df6c48df5327eb9b56a1e36066fc280223e86b54fc",
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "regions": [
+      {
+        "sheet": "Overview",
+        "page": 1,
+        "regions": [
+          "top",
+          "bottom"
+        ]
+      },
+      {
+        "sheet": "Context & Constraints",
+        "page": 2,
+        "regions": [
+          "top",
+          "bottom"
+        ]
+      },
+      {
+        "sheet": "Career Timeline",
+        "page": 3,
+        "regions": [
+          "top"
+        ]
+      },
+      {
+        "sheet": "Elections",
+        "page": 4,
+        "regions": [
+          "top"
+        ]
+      },
+      {
+        "sheet": "Offices & Party",
+        "page": 5,
+        "regions": [
+          "top"
+        ]
+      },
+      {
+        "sheet": "Policy & Governance",
+        "page": 6,
+        "regions": [
+          "top",
+          "middle"
+        ]
+      },
+      {
+        "sheet": "Ideas & Political Method",
+        "page": 7,
+        "regions": [
+          "top"
+        ]
+      },
+      {
+        "sheet": "Controversies",
+        "page": 8,
+        "regions": [
+          "top"
+        ]
+      },
+      {
+        "sheet": "Legacy & Assessments",
+        "page": 9,
+        "regions": [
+          "top"
+        ]
+      },
+      {
+        "sheet": "Sources",
+        "page": 10,
+        "regions": [
+          "top"
+        ]
+      },
+      {
+        "sheet": "Claims",
+        "page": 11,
+        "regions": [
+          "top",
+          "middle"
+        ]
+      },
+      {
+        "sheet": "Evidence",
+        "page": 12,
+        "regions": [
+          "top"
+        ]
+      },
+      {
+        "sheet": "Citations",
+        "page": 13,
+        "regions": [
+          "top",
+          "middle"
+        ]
+      },
+      {
+        "sheet": "Research Queue",
+        "page": 14,
+        "regions": [
+          "top"
+        ]
+      }
+    ],
+    "result": "Headers, wrapped text and evidence-navigation columns were readable in sampled visible regions. Cropping preserves the application-rendered geometry; crop boundaries can cut through a row.",
+    "limits": [
+      "Expanded grouped columns were structurally checked but not visually inspected.",
+      "Excel and LibreOffice layout and printing were not tested.",
+      "Numbers PDF export uses one tall page per worksheet; these PDFs are internal inspection artifacts, not print deliverables."
+    ]
+  },
+  "regression_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "tests_passed": 11
+  }
+}
