@@ -1,0 +1,371 @@
+{
+  "subject": "Mamata Banerjee",
+  "file": "Mamata_Banerjee_Political_Research.xlsx",
+  "workbook_sha256": "b65a75f5656a4cc3b95b0baccf52c99a782af553f9698c5f268426786929b1ca",
+  "checks": {
+    "structure": "PASS",
+    "provenance_integrity": "PASS",
+    "arithmetic": "PASS: expectations calculated independently in Python",
+    "application_recalculation": "PASS",
+    "visual_inspection": "PASS: all 14 sheet headers and initial records, updated records and selected dense regions inspected",
+    "archive_integrity": "PASS",
+    "pdf_record_presence": "PASS: all 189 authored records present on their respective sheets in the Numbers PDF",
+    "pipeline_tests": "PASS: 12 tests, including direct Assembly contests and indirect-election exclusion"
+  },
+  "evidence": {
+    "registered_fields": 319,
+    "status_counts": {
+      "Supported": 308,
+      "Not reviewed": 11
+    },
+    "note": "These are review units, not a percentage of historical truth or complete atomic-claim coverage."
+  },
+  "sheets": {
+    "Overview": 26,
+    "Context & Constraints": 60,
+    "Career Timeline": 28,
+    "Elections": 13,
+    "Offices & Party": 20,
+    "Policy & Governance": 17,
+    "Ideas & Political Method": 13,
+    "Controversies": 11,
+    "Legacy & Assessments": 9,
+    "Sources": 56,
+    "Claims": 319,
+    "Evidence": 504,
+    "Citations": 355,
+    "Research Queue": 10
+  },
+  "hyperlinks_checked": 3977,
+  "formula_checks": [
+    {
+      "sheet": "Elections",
+      "cell": "P6",
+      "formula": "=E6-N6",
+      "expected": 19660,
+      "record_id": "EL01",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "P7",
+      "formula": "=E7-N7",
+      "expected": -30900,
+      "record_id": "EL02",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "P8",
+      "formula": "=E8-N8",
+      "expected": 93663,
+      "record_id": "EL03",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "P9",
+      "formula": "=E9-N9",
+      "expected": 103261,
+      "record_id": "EL04",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "P10",
+      "formula": "=E10-N10",
+      "expected": 224081,
+      "record_id": "EL05",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "P11",
+      "formula": "=E11-N11",
+      "expected": 214008,
+      "record_id": "EL06",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "P12",
+      "formula": "=E12-N12",
+      "expected": 98429,
+      "record_id": "EL07",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "P13",
+      "formula": "=E13-N13",
+      "expected": 219571,
+      "record_id": "EL08",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "P14",
+      "formula": "=E14-N14",
+      "expected": 54213,
+      "record_id": "EL09",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "P15",
+      "formula": "=E15-N15",
+      "expected": 25301,
+      "record_id": "EL10",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "P16",
+      "formula": "=E16-N16",
+      "expected": -1956,
+      "record_id": "EL11",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "P17",
+      "formula": "=E17-N17",
+      "expected": 58835,
+      "record_id": "EL12",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "P18",
+      "formula": "=E18-N18",
+      "expected": -15105,
+      "record_id": "EL13",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C24",
+      "formula": "=COUNTIF(Claims!D6:D324,\"Supported\")",
+      "expected": 308,
+      "record_id": "QA01",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C25",
+      "formula": "=COUNTA(Claims!A6:A324)",
+      "expected": 319,
+      "record_id": "QA02",
+      "column": "Finding / value"
+    }
+  ],
+  "limitations": [
+    "No formula caches manufactured; all 15 formula results verified in an actual Numbers export. Cache-only viewers may show blank formulas until recalculation.",
+    "319 registered field-level assertions include compound fields: 308 Supported and 11 Not reviewed. Counts are not complete atomic-claim coverage or a historical truth score.",
+    "56-source register includes two cached-only sources. Ten research questions remain open. The September 28 court timetable is supported by press reports; its signed order was not obtained.",
+    "Visual review samples regions; text presence does not prove visual readability of every cell."
+  ],
+  "application": {
+    "engine": "Numbers Creator Studio",
+    "export_sha256": "18fc123387a6604af0462cb3867f9ae2a96c8963f9e8d57d2e740ba41491b4d7",
+    "results": [
+      {
+        "record_id": "EL01",
+        "sheet": "Elections",
+        "cell": "P6",
+        "engine_value": 19660
+      },
+      {
+        "record_id": "EL02",
+        "sheet": "Elections",
+        "cell": "P7",
+        "engine_value": -30900
+      },
+      {
+        "record_id": "EL03",
+        "sheet": "Elections",
+        "cell": "P8",
+        "engine_value": 93663
+      },
+      {
+        "record_id": "EL04",
+        "sheet": "Elections",
+        "cell": "P9",
+        "engine_value": 103261
+      },
+      {
+        "record_id": "EL05",
+        "sheet": "Elections",
+        "cell": "P10",
+        "engine_value": 224081
+      },
+      {
+        "record_id": "EL06",
+        "sheet": "Elections",
+        "cell": "P11",
+        "engine_value": 214008
+      },
+      {
+        "record_id": "EL07",
+        "sheet": "Elections",
+        "cell": "P12",
+        "engine_value": 98429
+      },
+      {
+        "record_id": "EL08",
+        "sheet": "Elections",
+        "cell": "P13",
+        "engine_value": 219571
+      },
+      {
+        "record_id": "EL09",
+        "sheet": "Elections",
+        "cell": "P14",
+        "engine_value": 54213
+      },
+      {
+        "record_id": "EL10",
+        "sheet": "Elections",
+        "cell": "P15",
+        "engine_value": 25301
+      },
+      {
+        "record_id": "EL11",
+        "sheet": "Elections",
+        "cell": "P16",
+        "engine_value": -1956
+      },
+      {
+        "record_id": "EL12",
+        "sheet": "Elections",
+        "cell": "P17",
+        "engine_value": 58835
+      },
+      {
+        "record_id": "EL13",
+        "sheet": "Elections",
+        "cell": "P18",
+        "engine_value": -15105
+      },
+      {
+        "record_id": "QA01",
+        "sheet": "Overview",
+        "cell": "C24",
+        "engine_value": 308
+      },
+      {
+        "record_id": "QA02",
+        "sheet": "Overview",
+        "cell": "C25",
+        "engine_value": 319
+      }
+    ]
+  },
+  "visual_inspection": {
+    "engine": "Numbers Creator Studio PDF export; PDFKit rendering through Swift",
+    "review_date": "2026-09-30",
+    "workbook_sha256": "b65a75f5656a4cc3b95b0baccf52c99a782af553f9698c5f268426786929b1ca",
+    "pdf_sha256": "40fce4c3d8e9a138d105e01c60e62090fc984ab2071636c9c48b3e4b2ebb5622",
+    "sheets_reviewed": [
+      "Overview",
+      "Context & Constraints",
+      "Career Timeline",
+      "Elections",
+      "Offices & Party",
+      "Policy & Governance",
+      "Ideas & Political Method",
+      "Controversies",
+      "Legacy & Assessments",
+      "Sources",
+      "Claims",
+      "Evidence",
+      "Citations",
+      "Research Queue"
+    ],
+    "regions_reviewed": {
+      "1": [
+        "top",
+        "bottom"
+      ],
+      "2": [
+        "top",
+        "bottom"
+      ],
+      "3": [
+        "top",
+        "bottom"
+      ],
+      "4": [
+        "top"
+      ],
+      "5": [
+        "top",
+        "bottom"
+      ],
+      "6": [
+        "top"
+      ],
+      "7": [
+        "top"
+      ],
+      "8": [
+        "top"
+      ],
+      "9": [
+        "top"
+      ],
+      "10": [
+        "top",
+        "bottom"
+      ],
+      "11": [
+        "top",
+        "middle"
+      ],
+      "12": [
+        "top"
+      ],
+      "13": [
+        "top"
+      ],
+      "14": [
+        "top"
+      ]
+    },
+    "scope": "Fresh review of all 14 sheet headers and first records; Overview coverage counts, final-phase context, latest timeline and office entries, all controversy statuses, new sources, research queue and selected Claims middle rows. New legal timetable and its supporting source entry checked visually.",
+    "findings": "Sampled text wraps, Bengali identity, long URLs, review labels and coverage counts are readable. No overlap or clipping observed within the inspected cells; partial rows at crop edges are viewport boundaries.",
+    "limitations": "Sampling does not certify every cell. Expanded-column review was performed in the September 25 session, not repeated wholesale in this refresh.",
+    "previous_review": {
+      "engine": "Numbers Creator Studio PDF export; PDFKit rendering through Swift",
+      "review_date": "2026-09-25",
+      "workbook_sha256": "ef7a5603ec2507d28f36e74e12b70a73b10cbd346684cadc353382d67c9e51d6",
+      "pdf_sha256": "f9e7b04eece84abbf211d479616ddd80ac568713b313f51d5e4c3af0ec16be48",
+      "previous_pdf_sha256": "bd04b5bcd05fae56cc1e184b3b8634a75246a896a3d870ba686b2f491dc4b008",
+      "expanded_pdf_sha256": "04aa893edcbbe37e2d056ff6241e57311166f81663e2fdf8ad75e551cc33628c",
+      "sheets_reviewed": [
+        "Overview",
+        "Context & Constraints",
+        "Career Timeline",
+        "Elections",
+        "Offices & Party",
+        "Policy & Governance",
+        "Ideas & Political Method",
+        "Controversies",
+        "Legacy & Assessments",
+        "Sources",
+        "Claims",
+        "Evidence",
+        "Citations",
+        "Research Queue"
+      ],
+      "scope": "All 14 sheet headers and initial records inspected. Selected middle/bottom regions and expanded election, policy, controversy and source columns inspected. Final changed chronology, junior ministry, coalition row, source addition and evidence counts reviewed; unchanged sheet text compared with earlier export.",
+      "findings": "Sampled text wraps, Bengali name, dates, percentages, negative margins, links and review labels were readable. No cell overlap or truncation observed in inspected regions. Crop edges are viewport boundaries.",
+      "limitations": "Sampling does not certify every cell. Expanded-column inspection used a disposable earlier copy; sampled Elections, Policy and Controversies data were checked unchanged against final delivery. Evidence-register bottom crop repeated the top view, so it was not counted as bottom-region verification."
+    },
+    "unchanged_data_and_layout_since_previous_review": [
+      "Elections",
+      "Policy & Governance",
+      "Ideas & Political Method"
+    ]
+  }
+}
