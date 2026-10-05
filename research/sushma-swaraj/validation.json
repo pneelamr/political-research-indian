@@ -1,0 +1,253 @@
+{
+  "subject": "Sushma Swaraj",
+  "file": "Sushma_Swaraj_Political_Research.xlsx",
+  "workbook_sha256": "df350c519b4cc4349d7e6229829f843e5ad3c57503c6f40337db3309853366f1",
+  "checks": {
+    "structure": "PASS",
+    "provenance_integrity": "PASS",
+    "arithmetic": "PASS: expectations calculated independently in Python",
+    "application_recalculation": "PASS",
+    "visual_inspection": "PASS: sampled rendered regions of all 14 sheets and expanded detail regions"
+  },
+  "evidence": {
+    "registered_fields": 230,
+    "status_counts": {
+      "Supported": 222,
+      "Not reviewed": 8
+    },
+    "note": "These are review units, not a percentage of historical truth or complete atomic-claim coverage."
+  },
+  "sheets": {
+    "Overview": 25,
+    "Context & Constraints": 50,
+    "Career Timeline": 24,
+    "Elections": 14,
+    "Offices & Party": 22,
+    "Policy & Governance": 14,
+    "Ideas & Political Method": 10,
+    "Controversies": 6,
+    "Legacy & Assessments": 8,
+    "Sources": 47,
+    "Claims": 230,
+    "Evidence": 385,
+    "Citations": 319,
+    "Research Queue": 12
+  },
+  "hyperlinks_checked": 3183,
+  "formula_checks": [
+    {
+      "sheet": "Elections",
+      "cell": "N6",
+      "formula": "=F6-M6",
+      "expected": 9824,
+      "record_id": "EL01",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N7",
+      "formula": "=F7-M7",
+      "expected": -22328,
+      "record_id": "EL02",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N8",
+      "formula": "=F8-M8",
+      "expected": -169193,
+      "record_id": "EL03",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N9",
+      "formula": "=F9-M9",
+      "expected": 7972,
+      "record_id": "EL04",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N10",
+      "formula": "=F10-M10",
+      "expected": -8673,
+      "record_id": "EL05",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N12",
+      "formula": "=F12-M12",
+      "expected": 114006,
+      "record_id": "EL07",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N13",
+      "formula": "=F13-M13",
+      "expected": 116713,
+      "record_id": "EL08",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N14",
+      "formula": "=F14-M14",
+      "expected": 2615,
+      "record_id": "EL09",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N15",
+      "formula": "=F15-M15",
+      "expected": -56100,
+      "record_id": "EL10",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N18",
+      "formula": "=F18-M18",
+      "expected": 389844,
+      "record_id": "EL13",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N19",
+      "formula": "=F19-M19",
+      "expected": 410698,
+      "record_id": "EL14",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C23",
+      "formula": "=COUNTIF(Claims!D6:D235,\"Supported\")",
+      "expected": 222,
+      "record_id": "QA01",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C24",
+      "formula": "=COUNTA(Claims!A6:A235)",
+      "expected": 230,
+      "record_id": "QA02",
+      "column": "Finding / value"
+    }
+  ],
+  "limitations": [
+    "No formula caches manufactured; delivery workbook recalculates on opening in a spreadsheet application.",
+    "Visual checks sample tall audit sheets and expanded detail regions; they do not certify every cell.",
+    "Eight registered fields remain Not reviewed. Twelve research-queue entries describe broader evidence gaps.",
+    "Source presence does not certify every surrounding field; the claim register specifies reviewed assertions."
+  ],
+  "application": {
+    "engine": "Numbers Creator Studio",
+    "export_sha256": "563da51aea585b3051f42259ce5509efd039a13f59bc0dd3feb31d9b55829208",
+    "results": [
+      {
+        "record_id": "EL01",
+        "sheet": "Elections",
+        "cell": "N6",
+        "engine_value": 9824
+      },
+      {
+        "record_id": "EL02",
+        "sheet": "Elections",
+        "cell": "N7",
+        "engine_value": -22328
+      },
+      {
+        "record_id": "EL03",
+        "sheet": "Elections",
+        "cell": "N8",
+        "engine_value": -169193
+      },
+      {
+        "record_id": "EL04",
+        "sheet": "Elections",
+        "cell": "N9",
+        "engine_value": 7972
+      },
+      {
+        "record_id": "EL05",
+        "sheet": "Elections",
+        "cell": "N10",
+        "engine_value": -8673
+      },
+      {
+        "record_id": "EL07",
+        "sheet": "Elections",
+        "cell": "N12",
+        "engine_value": 114006
+      },
+      {
+        "record_id": "EL08",
+        "sheet": "Elections",
+        "cell": "N13",
+        "engine_value": 116713
+      },
+      {
+        "record_id": "EL09",
+        "sheet": "Elections",
+        "cell": "N14",
+        "engine_value": 2615
+      },
+      {
+        "record_id": "EL10",
+        "sheet": "Elections",
+        "cell": "N15",
+        "engine_value": -56100
+      },
+      {
+        "record_id": "EL13",
+        "sheet": "Elections",
+        "cell": "N18",
+        "engine_value": 389844
+      },
+      {
+        "record_id": "EL14",
+        "sheet": "Elections",
+        "cell": "N19",
+        "engine_value": 410698
+      },
+      {
+        "record_id": "QA01",
+        "sheet": "Overview",
+        "cell": "C23",
+        "engine_value": 222
+      },
+      {
+        "record_id": "QA02",
+        "sheet": "Overview",
+        "cell": "C24",
+        "engine_value": 230
+      }
+    ]
+  },
+  "visual_inspection": {
+    "engine": "Numbers Creator Studio PDF export; PDFKit rasterization",
+    "reviewed_at": "2026-10-05",
+    "pdf_sha256": "fa50436a5ca2c0f8cf18f200c8d8aa379e83c709207a140dcefa9317060b75f9",
+    "expanded_pdf_sha256": "36691a677e61065e101edfe4c34f6d453b4b25c764b393b777e6b465c06120a5",
+    "default_view": "Top, middle and bottom regions inspected for all 14 worksheets. Long audit sheets sampled; not every individual cell visually inspected.",
+    "expanded_regions": [
+      "Elections: opponent votes, signed margins, shares, valid-vote denominators, dates and units",
+      "Policy & Governance: documented roles and attribution limits",
+      "Controversies: responses and phase/source fields",
+      "Sources: passage locators, reliability notes and usage"
+    ],
+    "findings": [
+      "No clipping or overlap found within inspected cells; crop edges are intentional region boundaries.",
+      "Election counts and negative margins use numeric formats; shares display as percentages; dates display as dates.",
+      "Blank unresolved shares and indirect-election values remain blank.",
+      "Evidence-review status and citation navigation remain visible in the default view."
+    ],
+    "artifacts": "Disposable QA files retained outside repository under /private/tmp/sushma-research-qa."
+  }
+}
