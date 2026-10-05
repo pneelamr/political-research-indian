@@ -1,0 +1,393 @@
+{
+  "subject": "Jyotiraditya Madhavrao Scindia",
+  "file": "Jyotiraditya_Scindia_Political_Research.xlsx",
+  "workbook_sha256": "86697eacb3264719e0aa94d995aca5ae9dce3ce1d637e8ad7f8d93f864c68888",
+  "checks": {
+    "structure": "PASS",
+    "provenance_integrity": "PASS",
+    "arithmetic": "PASS: expectations calculated independently in Python",
+    "application_recalculation": "PASS",
+    "visual_inspection": "PASS: all sheets sampled in Numbers rendering; expanded supporting columns and corrected evidence region inspected",
+    "pipeline_regression_tests": "PASS: 12 existing tests"
+  },
+  "evidence": {
+    "registered_fields": 221,
+    "status_counts": {
+      "Supported": 212,
+      "Not reviewed": 9
+    },
+    "note": "These are review units, not a percentage of historical truth or complete atomic-claim coverage."
+  },
+  "sheets": {
+    "Overview": 26,
+    "Context & Constraints": 60,
+    "Career Timeline": 24,
+    "Elections": 7,
+    "Offices & Party": 16,
+    "Policy & Governance": 14,
+    "Ideas & Political Method": 9,
+    "Controversies": 6,
+    "Legacy & Assessments": 7,
+    "Sources": 45,
+    "Claims": 221,
+    "Evidence": 371,
+    "Citations": 310,
+    "Research Queue": 11
+  },
+  "hyperlinks_checked": 3075,
+  "formula_checks": [
+    {
+      "sheet": "Elections",
+      "cell": "O6",
+      "formula": "=F6-N6",
+      "expected": 406568,
+      "record_id": "EL01",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "O7",
+      "formula": "=F7-N7",
+      "expected": 86360,
+      "record_id": "EL02",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "O8",
+      "formula": "=F8-N8",
+      "expected": 249737,
+      "record_id": "EL03",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "O9",
+      "formula": "=F9-N9",
+      "expected": 120792,
+      "record_id": "EL04",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "O10",
+      "formula": "=F10-N10",
+      "expected": -125549,
+      "record_id": "EL05",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "O12",
+      "formula": "=F12-N12",
+      "expected": 540929,
+      "record_id": "EL07",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C24",
+      "formula": "=COUNTIF(Claims!D6:D226,\"Supported\")",
+      "expected": 212,
+      "record_id": "QA01",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C25",
+      "formula": "=COUNTA(Claims!A6:A226)",
+      "expected": 221,
+      "record_id": "QA02",
+      "column": "Finding / value"
+    }
+  ],
+  "limitations": [
+    "No synthetic formula caches inserted. The original XLSX recalculates on opening; cache-only viewers may show blank formula cells.",
+    "212 supported registered fields include bounded syntheses; nine context fields remain unreviewed. This is not an exhaustive atomic-claim or historical-truth score.",
+    "Original election returns, a 2024 share denominator, later legal developments and independent policy outcomes remain documented research gaps.",
+    "Visual checks sampled every sheet plus selected dense and expanded regions in Numbers; other spreadsheet engines were not visually tested."
+  ],
+  "application": {
+    "engine": "Numbers Creator Studio",
+    "export_sha256": "14eb5a218290a73ed9d85816cfe0e9c9aa330d213749fece91a375867597c0d7",
+    "results": [
+      {
+        "record_id": "EL01",
+        "sheet": "Elections",
+        "cell": "O6",
+        "engine_value": 406568
+      },
+      {
+        "record_id": "EL02",
+        "sheet": "Elections",
+        "cell": "O7",
+        "engine_value": 86360
+      },
+      {
+        "record_id": "EL03",
+        "sheet": "Elections",
+        "cell": "O8",
+        "engine_value": 249737
+      },
+      {
+        "record_id": "EL04",
+        "sheet": "Elections",
+        "cell": "O9",
+        "engine_value": 120792
+      },
+      {
+        "record_id": "EL05",
+        "sheet": "Elections",
+        "cell": "O10",
+        "engine_value": -125549
+      },
+      {
+        "record_id": "EL07",
+        "sheet": "Elections",
+        "cell": "O12",
+        "engine_value": 540929
+      },
+      {
+        "record_id": "QA01",
+        "sheet": "Overview",
+        "cell": "C24",
+        "engine_value": 212
+      },
+      {
+        "record_id": "QA02",
+        "sheet": "Overview",
+        "cell": "C25",
+        "engine_value": 221
+      }
+    ],
+    "version": "15.4"
+  },
+  "visual": {
+    "engine": "Numbers Creator Studio",
+    "version": "15.4",
+    "date": "2026-10-04",
+    "delivery_workbook_sha256": "86697eacb3264719e0aa94d995aca5ae9dce3ce1d637e8ad7f8d93f864c68888",
+    "delivery_pdf_sha256": "7e55fcde3b6b1d735f6238fb5f299aadc6e8704465ae88a5b5335d33f443d6f1",
+    "page_count": 14,
+    "method": "Actual Numbers PDF exports, cropped with PDFKit without reflow; source XLSX retained unchanged. Default views and expanded disposable copy inspected.",
+    "inspected_default_regions": [
+      {
+        "sheet": "Overview",
+        "page": 1,
+        "region": "top",
+        "sha256": "37f36245674ecbb7290c50ec82101493652364f1ff05fac62d19533f32e1fac6",
+        "qa_image": "/private/tmp/scindia-research-qa/final-pages/page-1-top.png"
+      },
+      {
+        "sheet": "Overview",
+        "page": 1,
+        "region": "bottom",
+        "sha256": "d824ed7e4fd3828fa6d5a5438536a6bbe7f8253467ed46d2da6d4e4faf73e02b",
+        "qa_image": "/private/tmp/scindia-research-qa/final-pages/page-1-bottom.png"
+      },
+      {
+        "sheet": "Context & Constraints",
+        "page": 2,
+        "region": "top",
+        "sha256": "90b0c6febe4c2853d3e2a7e266e7295f9878a4156e3d69460ec8365587006f1e",
+        "qa_image": "/private/tmp/scindia-research-qa/final-pages/page-2-top.png"
+      },
+      {
+        "sheet": "Context & Constraints",
+        "page": 2,
+        "region": "bottom",
+        "sha256": "c6f50f60ac2521855ed5cd54fd915c4fab4e6f183073cb61ccf7f18b0b2dc4e3",
+        "qa_image": "/private/tmp/scindia-research-qa/final-pages/page-2-bottom.png"
+      },
+      {
+        "sheet": "Career Timeline",
+        "page": 3,
+        "region": "top",
+        "sha256": "0b7201269359059dba52aa3de25cfcff3cf38dd35110dd773ce1f92a51207fe7",
+        "qa_image": "/private/tmp/scindia-research-qa/final-pages/page-3-top.png"
+      },
+      {
+        "sheet": "Career Timeline",
+        "page": 3,
+        "region": "bottom",
+        "sha256": "6a16fea44e94a9ee9f1adc8b3b763121e5f1138b66d29e246259438ce758d982",
+        "qa_image": "/private/tmp/scindia-research-qa/final-pages/page-3-bottom.png"
+      },
+      {
+        "sheet": "Elections",
+        "page": 4,
+        "region": "top",
+        "sha256": "280f47e9f8356d3bbc6005b633ca652b0184cc5f47844599a71f8742be0cddb9",
+        "qa_image": "/private/tmp/scindia-research-qa/final-pages/page-4-top.png"
+      },
+      {
+        "sheet": "Offices & Party",
+        "page": 5,
+        "region": "bottom",
+        "sha256": "2dd610a120ae397b17f711bffa799b435850d14db7259657f6d27edf36437e10",
+        "qa_image": "/private/tmp/scindia-research-qa/final-pages/page-5-bottom.png"
+      },
+      {
+        "sheet": "Policy & Governance",
+        "page": 6,
+        "region": "bottom",
+        "sha256": "2b694d89841a6b62d7f310199c33a0b58124e6c9f3040b747e893835009b906d",
+        "qa_image": "/private/tmp/scindia-research-qa/final-pages/page-6-bottom.png"
+      },
+      {
+        "sheet": "Ideas & Political Method",
+        "page": 7,
+        "region": "top",
+        "sha256": "6d607e83af071824e701c798380b12ca10a3e37718225d64d574a06f25e167d4",
+        "qa_image": "/private/tmp/scindia-research-qa/final-pages/page-7-top.png"
+      },
+      {
+        "sheet": "Controversies",
+        "page": 8,
+        "region": "top",
+        "sha256": "1bbf6cf7243d314ea9525f080ca7c983f619749f6545c4deeeea675503195e7f",
+        "qa_image": "/private/tmp/scindia-research-qa/final-pages/page-8-top.png"
+      },
+      {
+        "sheet": "Legacy & Assessments",
+        "page": 9,
+        "region": "bottom",
+        "sha256": "cb2c37af14ff019a981132cfd012e870e9083cbb1fc936fcf40b34c420e7956f",
+        "qa_image": "/private/tmp/scindia-research-qa/final-pages/page-9-bottom.png"
+      },
+      {
+        "sheet": "Sources",
+        "page": 10,
+        "region": "middle",
+        "sha256": "6723576023f6e10d467446cbe268cd45a14ff683edbaea8c2697d8c08a6becc2",
+        "qa_image": "/private/tmp/scindia-research-qa/final-pages/page-10-middle.png"
+      },
+      {
+        "sheet": "Claims",
+        "page": 11,
+        "region": "middle",
+        "sha256": "4f5bd89a9e98ba160626a2a79fc70bad579d4339aaa70a0b9f0535c09b85f249",
+        "qa_image": "/private/tmp/scindia-research-qa/final-pages/page-11-middle.png"
+      },
+      {
+        "sheet": "Evidence",
+        "page": 12,
+        "region": "middle",
+        "sha256": "fb0b6e5d751979691bc0a5387660c55f00e84ba118c17d0f00333c9dcb60fb2d",
+        "qa_image": "/private/tmp/scindia-research-qa/final-pages/page-12-middle.png"
+      },
+      {
+        "sheet": "Citations",
+        "page": 13,
+        "region": "bottom",
+        "sha256": "9e6529867134d9a7d04312d4994862a298a4ed32194b8b0bba2173d7915bd05d",
+        "qa_image": "/private/tmp/scindia-research-qa/final-pages/page-13-bottom.png"
+      },
+      {
+        "sheet": "Research Queue",
+        "page": 14,
+        "region": "top",
+        "sha256": "ea1112b19d1f309c15b5c0e6e57c0be8d39944566ab25861dee5f3347303d1f9",
+        "qa_image": "/private/tmp/scindia-research-qa/final-pages/page-14-top.png"
+      }
+    ],
+    "expanded_input_sha256": "6cca7dce1cb67f5a176e30d0eb09a3341f0b130014b45570dea6f9a76dc92643",
+    "expanded_pdf_sha256": "cb573d3d0c928a17db71261feb013a975501e09ad81eba2e4b7af641544d4549",
+    "expanded_regions": [
+      {
+        "height": 640,
+        "image": "region-4-1500-120-1200-640.png",
+        "page": 4,
+        "top": 120,
+        "width": 1200,
+        "x": 1500
+      },
+      {
+        "height": 640,
+        "image": "region-4-2600-120-1200-640.png",
+        "page": 4,
+        "top": 120,
+        "width": 1200,
+        "x": 2600
+      },
+      {
+        "height": 750,
+        "image": "region-5-1500-120-1200-750.png",
+        "page": 5,
+        "top": 120,
+        "width": 1200,
+        "x": 1500
+      },
+      {
+        "height": 850,
+        "image": "region-6-1350-120-1200-850.png",
+        "page": 6,
+        "top": 120,
+        "width": 1200,
+        "x": 1350
+      },
+      {
+        "height": 640,
+        "image": "region-8-1300-120-1200-640.png",
+        "page": 8,
+        "top": 120,
+        "width": 1200,
+        "x": 1300
+      },
+      {
+        "height": 750,
+        "image": "region-10-1700-120-1200-750.png",
+        "page": 10,
+        "top": 120,
+        "width": 1200,
+        "x": 1700
+      },
+      {
+        "height": 750,
+        "image": "region-11-1100-120-1100-750.png",
+        "page": 11,
+        "top": 120,
+        "width": 1100,
+        "x": 1100
+      }
+    ],
+    "final_relink_review": {
+      "change": "C-TL22-02 now cites the 3 December withdrawal announcement S035. Only Claims I52 and Evidence C/D/E/F/H88 cell values changed.",
+      "prior_workbook_sha256": "2e05e41f791b3e63dd86e01b1b9b6303783680ff7550d98df44be90939cf2f1f",
+      "unchanged_rendered_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14
+      ],
+      "page_dimensions_unchanged": true,
+      "corrected_evidence_region": [
+        {
+          "height": 500,
+          "image": "region-12-60-7300-940-500.png",
+          "page": 12,
+          "top": 7300,
+          "width": 940,
+          "x": 60
+        }
+      ],
+      "corrected_region_sha256": "e753666ed47da1021754587a9f872adbe353b1440590cb53ae8eb94e158859fa"
+    },
+    "result": "No clipping or overlap found in inspected regions. Numeric margins, negative defeat margin, indirect-election blanks, readable responses and source caveats checked.",
+    "scope_limit": "Sampled page regions, not a cell-by-cell visual audit. Wide expanded sheets require horizontal scrolling. QA exports remain disposable and are not user deliverables."
+  },
+  "source_access_counts": {
+    "Passage inspected": 38,
+    "Cached search text only": 4,
+    "Access failed": 3
+  }
+}

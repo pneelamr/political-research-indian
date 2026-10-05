@@ -7,6 +7,7 @@ Source-backed Excel research workbooks on Indian political figures, covering the
 | Figure | Workbook | Research date |
 | --- | --- | --- |
 | Atal Bihari Vajpayee | [Vajpayee political research](Atal_Bihari_Vajpayee_Political_Research.xlsx) | 24 September 2026 |
+| Jyotiraditya Scindia | [Scindia political research](Jyotiraditya_Scindia_Political_Research.xlsx) | 4 October 2026 |
 | K. Chandrashekar Rao (KCR) | [KCR political research](KCR_Political_Research.xlsx) | 15 September 2026 |
 | M. Karunanidhi | [Karunanidhi political research](M_Karunanidhi_Political_Research.xlsx) | 14 September 2026 |
 | Mamata Banerjee | [Banerjee political research](Mamata_Banerjee_Political_Research.xlsx) | 30 September 2026 |
@@ -21,12 +22,12 @@ Research dates indicate each workbook's stated cutoff or evidence-access date, n
 
 1. Download a workbook and open it in an application that supports `.xlsx` files, such as Microsoft Excel or LibreOffice Calc.
 2. Start with **Overview**, then use the detailed worksheets and table filters to explore a topic or career phase.
-3. Follow each record's source IDs to **Sources** for citations, links, and evidence limitations. Source IDs are local to each workbook. In the Vajpayee, Rahul Gandhi, Nirmala Sitharaman and Mamata Banerjee workbooks, **All citations** opens every cited source link and **Claims** shows which fields have passage evidence.
-4. Read claim types, procedural status, and qualification notes alongside the findings. In those four workbooks, expand the **+** column group for supporting fields; the initial view prioritizes findings and review status.
+3. Follow each record's source IDs to **Sources** for citations, links, and evidence limitations. Source IDs are local to each workbook. In the Vajpayee, Rahul Gandhi, Nirmala Sitharaman, Mamata Banerjee and Jyotiraditya Scindia workbooks, **All citations** opens every cited source link and **Claims** shows which fields have passage evidence.
+4. Read claim types, procedural status, and qualification notes alongside the findings. In those five workbooks, expand the **+** column group for supporting fields; the initial view prioritizes findings and review status.
 
 ## Workbook structure
 
-All eight workbooks contain these worksheets; column layouts and depth vary by subject.
+All nine workbooks contain these worksheets; column layouts and depth vary by subject.
 
 | Worksheet | Coverage |
 | --- | --- |
@@ -58,6 +59,8 @@ The Vajpayee research is preserved in [research.json](research/atal-bihari-vajpa
 Nirmala Sitharaman's [research records](research/nirmala-sitharaman/research.json) and [retrieval register](research/nirmala-sitharaman/retrievals.json) contain 45 sources and 242 reviewed fields, including explicitly bounded analysis. The research queue records eight open questions and one resolved document gap. Rajya Sabha counts are legislator votes; popular vote shares and single-opponent margins are inapplicable. Her [validation report](research/nirmala-sitharaman/validation.json) records the checks on the delivered workbook.
 
 Mamata Banerjee's [research records](research/mamata-banerjee/research.json) and [retrieval register](research/mamata-banerjee/retrievals.json) cover five career phases, 13 personal elections and a 56-source register. Of 319 registered fields, 308 have passage support or bounded synthesis and 11 remain unreviewed. Ten research-queue entries preserve gaps in original returns, short ministerial tenures, recent legal outcomes and policy effects. The cutoff includes the 2026 government transition and September 28 reporting on the party-name dispute; the reported timetable and interim arrangements are distinguished from final decisions. See her [validation report](research/mamata-banerjee/validation.json) for workbook checks.
+
+Jyotiraditya Scindia’s [research records](research/jyotiraditya-scindia/research.json) and [retrieval register](research/jyotiraditya-scindia/retrievals.json) cover five career phases, six Lok Sabha contests, one Rajya Sabha election and 45 sources. Of 221 registered fields, 212 have inspected-passage support or bounded synthesis; nine context fields remain unreviewed. The research queue contains ten open gaps and one resolved chronology discrepancy. Older vote counts use identified secondary fallbacks; the 2024 vote share is withheld pending a checked primary denominator. Policy records distinguish ministerial involvement, reported outputs and unestablished causal effects. See his [validation report](research/jyotiraditya-scindia/validation.json) for actual workbook checks.
 
 With Python 3.10+ and the dependencies in `requirements-research.txt` installed:
 
