@@ -1,0 +1,519 @@
+{
+  "subject": "L. K. Advani",
+  "file": "L_K_Advani_Political_Research.xlsx",
+  "workbook_sha256": "6ebdb2e4b0609d1eda47de3d3cade4b1cc16774bb33ad30abfc3aa03bb373583",
+  "checks": {
+    "structure": "PASS",
+    "provenance_integrity": "PASS",
+    "arithmetic": "PASS: expectations calculated independently in Python",
+    "application_recalculation": "PASS",
+    "visual_inspection": "PASS: real Numbers Creator Studio PDF; all 14 worksheet headers and leading rows, six additional dense/lower regions, and six expanded-column regions inspected."
+  },
+  "evidence": {
+    "registered_fields": 272,
+    "status_counts": {
+      "Supported": 261,
+      "Not reviewed": 11
+    },
+    "note": "These are review units, not a percentage of historical truth or complete atomic-claim coverage."
+  },
+  "sheets": {
+    "Overview": 25,
+    "Context & Constraints": 60,
+    "Career Timeline": 37,
+    "Elections": 12,
+    "Offices & Party": 34,
+    "Policy & Governance": 13,
+    "Ideas & Political Method": 12,
+    "Controversies": 9,
+    "Legacy & Assessments": 9,
+    "Sources": 43,
+    "Claims": 272,
+    "Evidence": 454,
+    "Citations": 402,
+    "Research Queue": 15
+  },
+  "hyperlinks_checked": 3847,
+  "formula_checks": [
+    {
+      "sheet": "Elections",
+      "cell": "L10",
+      "formula": "=F10-J10",
+      "expected": 31841,
+      "record_id": "EL05",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "L11",
+      "formula": "=F11-J11",
+      "expected": 1589,
+      "record_id": "EL06",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "L12",
+      "formula": "=F12-J12",
+      "expected": 125679,
+      "record_id": "EL07",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "L13",
+      "formula": "=F13-J13",
+      "expected": 276701,
+      "record_id": "EL08",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "L14",
+      "formula": "=F14-J14",
+      "expected": 188944,
+      "record_id": "EL09",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "L15",
+      "formula": "=F15-J15",
+      "expected": 217138,
+      "record_id": "EL10",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "L16",
+      "formula": "=F16-J16",
+      "expected": 121747,
+      "record_id": "EL11",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "L17",
+      "formula": "=F17-J17",
+      "expected": 483121,
+      "record_id": "EL12",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C23",
+      "formula": "=COUNTIF(Claims!D6:D277,\"Supported\")",
+      "expected": 261,
+      "record_id": "QA01",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C24",
+      "formula": "=COUNTA(Claims!A6:A277)",
+      "expected": 272,
+      "record_id": "QA02",
+      "column": "Finding / value"
+    }
+  ],
+  "limitations": [
+    "Formula caches are not manufactured; spreadsheet applications recalculate on opening.",
+    "261 of 272 registered field-level claims have passage support or bounded synthesis; 11 remain Not reviewed. These counts do not measure historical truth or exhaustive atomic-claim coverage.",
+    "Original 2004–2014 constituency returns, full Babri trial and Liberhan records, some office boundaries and independent policy outcomes remain in the research queue.",
+    "Visual QA samples long worksheets and does not establish historical accuracy."
+  ],
+  "application": {
+    "engine": "Numbers Creator Studio",
+    "export_sha256": "1d89d7a0cb48a721111873fa147286c8ead007a722357aa8b89c36c55d40301c",
+    "results": [
+      {
+        "record_id": "EL05",
+        "sheet": "Elections",
+        "cell": "L10",
+        "engine_value": 31841
+      },
+      {
+        "record_id": "EL06",
+        "sheet": "Elections",
+        "cell": "L11",
+        "engine_value": 1589
+      },
+      {
+        "record_id": "EL07",
+        "sheet": "Elections",
+        "cell": "L12",
+        "engine_value": 125679
+      },
+      {
+        "record_id": "EL08",
+        "sheet": "Elections",
+        "cell": "L13",
+        "engine_value": 276701
+      },
+      {
+        "record_id": "EL09",
+        "sheet": "Elections",
+        "cell": "L14",
+        "engine_value": 188944
+      },
+      {
+        "record_id": "EL10",
+        "sheet": "Elections",
+        "cell": "L15",
+        "engine_value": 217138
+      },
+      {
+        "record_id": "EL11",
+        "sheet": "Elections",
+        "cell": "L16",
+        "engine_value": 121747
+      },
+      {
+        "record_id": "EL12",
+        "sheet": "Elections",
+        "cell": "L17",
+        "engine_value": 483121
+      },
+      {
+        "record_id": "QA01",
+        "sheet": "Overview",
+        "cell": "C23",
+        "engine_value": 261
+      },
+      {
+        "record_id": "QA02",
+        "sheet": "Overview",
+        "cell": "C24",
+        "engine_value": 272
+      }
+    ]
+  },
+  "visual_inspection": {
+    "engine": "Numbers Creator Studio",
+    "review_date": "2026-10-21",
+    "workbook_sha256": "6ebdb2e4b0609d1eda47de3d3cade4b1cc16774bb33ad30abfc3aa03bb373583",
+    "pdf_sha256": "82e428d212a6ab1c0cd7398bef8c42eb4f438e6613cac1b9af1c508069878c5a",
+    "expanded_input_sha256": "46b26d2f6226f0f9950c8d2644b5266250a0297cc62c8e4226d555fdc1806249",
+    "expanded_pdf_sha256": "935d984ba83d304128e6eb3c7582eb7080b1299671d0556cc3009d93e9b262f2",
+    "expanded_copy_changes": "Unhid grouped supporting columns and expanded print areas; research values and final deliverable unchanged.",
+    "temporary_artifact_directory": "/private/tmp/advani-research-qa",
+    "default_view_regions": [
+      {
+        "sheet": "Overview",
+        "page": 1,
+        "region": "top",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 1291,
+          "width": 1183,
+          "height": 800
+        },
+        "image": "pages/page-1-top.png"
+      },
+      {
+        "sheet": "Context & Constraints",
+        "page": 2,
+        "region": "top",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 4551,
+          "width": 1507,
+          "height": 800
+        },
+        "image": "pages/page-2-top.png"
+      },
+      {
+        "sheet": "Career Timeline",
+        "page": 3,
+        "region": "top",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 1755,
+          "width": 1363,
+          "height": 800
+        },
+        "image": "pages/page-3-top.png"
+      },
+      {
+        "sheet": "Elections",
+        "page": 4,
+        "region": "top",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 83,
+          "width": 1423,
+          "height": 800
+        },
+        "image": "pages/page-4-top.png"
+      },
+      {
+        "sheet": "Offices & Party",
+        "page": 5,
+        "region": "top",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 1067,
+          "width": 1447,
+          "height": 800
+        },
+        "image": "pages/page-5-top.png"
+      },
+      {
+        "sheet": "Policy & Governance",
+        "page": 6,
+        "region": "top",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 245,
+          "width": 1447,
+          "height": 800
+        },
+        "image": "pages/page-6-top.png"
+      },
+      {
+        "sheet": "Ideas & Political Method",
+        "page": 7,
+        "region": "top",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 277,
+          "width": 1183,
+          "height": 800
+        },
+        "image": "pages/page-7-top.png"
+      },
+      {
+        "sheet": "Controversies",
+        "page": 8,
+        "region": "top",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 135,
+          "width": 1507,
+          "height": 800
+        },
+        "image": "pages/page-8-top.png"
+      },
+      {
+        "sheet": "Legacy & Assessments",
+        "page": 9,
+        "region": "top",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 261,
+          "width": 1099,
+          "height": 800
+        },
+        "image": "pages/page-9-top.png"
+      },
+      {
+        "sheet": "Sources",
+        "page": 10,
+        "region": "top",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 2673,
+          "width": 847,
+          "height": 800
+        },
+        "image": "pages/page-10-top.png"
+      },
+      {
+        "sheet": "Claims",
+        "page": 11,
+        "region": "top",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 15749,
+          "width": 979,
+          "height": 800
+        },
+        "image": "pages/page-11-top.png"
+      },
+      {
+        "sheet": "Evidence",
+        "page": 12,
+        "region": "top",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 48979,
+          "width": 1039,
+          "height": 800
+        },
+        "image": "pages/page-12-top.png"
+      },
+      {
+        "sheet": "Citations",
+        "page": 13,
+        "region": "top",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 22245,
+          "width": 895,
+          "height": 800
+        },
+        "image": "pages/page-13-top.png"
+      },
+      {
+        "sheet": "Research Queue",
+        "page": 14,
+        "region": "top",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 201,
+          "width": 1273,
+          "height": 800
+        },
+        "image": "pages/page-14-top.png"
+      },
+      {
+        "sheet": "Overview",
+        "page": 1,
+        "region": "bottom",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 0,
+          "width": 1183,
+          "height": 800
+        },
+        "image": "pages/page-1-bottom.png"
+      },
+      {
+        "sheet": "Context & Constraints",
+        "page": 2,
+        "region": "bottom",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 0,
+          "width": 1507,
+          "height": 800
+        },
+        "image": "pages/page-2-bottom.png"
+      },
+      {
+        "sheet": "Sources",
+        "page": 10,
+        "region": "bottom",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 0,
+          "width": 847,
+          "height": 800
+        },
+        "image": "pages/page-10-bottom.png"
+      },
+      {
+        "sheet": "Claims",
+        "page": 11,
+        "region": "middle",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 7874.5,
+          "width": 979,
+          "height": 800
+        },
+        "image": "pages/page-11-middle.png"
+      },
+      {
+        "sheet": "Evidence",
+        "page": 12,
+        "region": "middle",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 24489.5,
+          "width": 1039,
+          "height": 800
+        },
+        "image": "pages/page-12-middle.png"
+      },
+      {
+        "sheet": "Citations",
+        "page": 13,
+        "region": "bottom",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 0,
+          "width": 895,
+          "height": 800
+        },
+        "image": "pages/page-13-bottom.png"
+      }
+    ],
+    "expanded_view_regions": [
+      {
+        "sheet": "Elections",
+        "page": 4,
+        "rectangle_pdf_points": {
+          "x": 1350,
+          "top": 130,
+          "width": 1150,
+          "height": 750
+        },
+        "image": "regions/region-1.png"
+      },
+      {
+        "sheet": "Elections",
+        "page": 4,
+        "rectangle_pdf_points": {
+          "x": 3000,
+          "top": 130,
+          "width": 1300,
+          "height": 750
+        },
+        "image": "regions/region-2.png"
+      },
+      {
+        "sheet": "Policy & Governance",
+        "page": 6,
+        "rectangle_pdf_points": {
+          "x": 1800,
+          "top": 130,
+          "width": 1200,
+          "height": 850
+        },
+        "image": "regions/region-3.png"
+      },
+      {
+        "sheet": "Controversies",
+        "page": 8,
+        "rectangle_pdf_points": {
+          "x": 1400,
+          "top": 130,
+          "width": 1400,
+          "height": 800
+        },
+        "image": "regions/region-4.png"
+      },
+      {
+        "sheet": "Context & Constraints",
+        "page": 2,
+        "rectangle_pdf_points": {
+          "x": 1400,
+          "top": 130,
+          "width": 1400,
+          "height": 850
+        },
+        "image": "regions/region-5.png"
+      },
+      {
+        "sheet": "Sources",
+        "page": 10,
+        "rectangle_pdf_points": {
+          "x": 1500,
+          "top": 130,
+          "width": 1150,
+          "height": 750
+        },
+        "image": "regions/region-6.png"
+      }
+    ],
+    "findings": "No material text clipping, overlap, unreadable wrapping or formula errors observed within the inspected cells. Crop-boundary cuts are sampling boundaries, not workbook clipping.",
+    "scope": "Visual sampling of every sheet and selected dense/supporting regions; not an inspection of every cell or certification of historical accuracy."
+  },
+  "arithmetic_details": {
+    "direct_contests": 8,
+    "checks": "Candidate-minus-opponent margins and candidate-votes/explicit-denominator shares independently checked; all ten workbook formulas agree with the Numbers export.",
+    "1999_gandhinagar": "Seven Assembly segments plus postal ballots reconcile to 453229 Advani votes, 264285 opponent votes and a margin of 188944.",
+    "2014_denominator": "1135495 includes 12777 NOTA votes; the denominator difference is disclosed."
+  }
+}
