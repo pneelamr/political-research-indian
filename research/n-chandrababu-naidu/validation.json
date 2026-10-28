@@ -1,0 +1,309 @@
+{
+  "subject": "N. Chandrababu Naidu",
+  "file": "N_Chandrababu_Naidu_Political_Research.xlsx",
+  "workbook_sha256": "39fc293041d6f6fb6a52cef70c2d860289d3a66d1bcff8af8f3023832678b0d1",
+  "checks": {
+    "structure": "PASS",
+    "provenance_integrity": "PASS",
+    "arithmetic": "PASS: expectations calculated independently in Python",
+    "application_recalculation": "PASS",
+    "visual_inspection": "PASS: every sheet sampled in Numbers PDF export; dense and expanded regions inspected; final changed timeline and election layout rechecked",
+    "passage_review": "196 supported registered fields; 21 not reviewed; source and claim coverage are not a completeness score"
+  },
+  "evidence": {
+    "registered_fields": 217,
+    "status_counts": {
+      "Supported": 196,
+      "Not reviewed": 21
+    },
+    "note": "These are review units, not a percentage of historical truth or complete atomic-claim coverage."
+  },
+  "sheets": {
+    "Overview": 26,
+    "Context & Constraints": 70,
+    "Career Timeline": 38,
+    "Elections": 12,
+    "Offices & Party": 21,
+    "Policy & Governance": 16,
+    "Ideas & Political Method": 10,
+    "Controversies": 7,
+    "Legacy & Assessments": 8,
+    "Sources": 46,
+    "Claims": 217,
+    "Evidence": 376,
+    "Citations": 389,
+    "Research Queue": 15
+  },
+  "hyperlinks_checked": 3389,
+  "formula_checks": [
+    {
+      "sheet": "Elections",
+      "cell": "N8",
+      "formula": "=F8-M8",
+      "expected": 6918,
+      "record_id": "EL03",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N9",
+      "formula": "=F9-M9",
+      "expected": 56588,
+      "record_id": "EL04",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N10",
+      "formula": "=F10-M10",
+      "expected": 65687,
+      "record_id": "EL05",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N11",
+      "formula": "=F11-M11",
+      "expected": 59588,
+      "record_id": "EL06",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N12",
+      "formula": "=F12-M12",
+      "expected": 46066,
+      "record_id": "EL07",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N13",
+      "formula": "=F13-M13",
+      "expected": 47121,
+      "record_id": "EL08",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N14",
+      "formula": "=F14-M14",
+      "expected": 30722,
+      "record_id": "EL09",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N15",
+      "formula": "=F15-M15",
+      "expected": 48006,
+      "record_id": "EL10",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C24",
+      "formula": "=COUNTIF(Claims!D6:D222,\"Supported\")",
+      "expected": 196,
+      "record_id": "QA01",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C25",
+      "formula": "=COUNTA(Claims!A6:A222)",
+      "expected": 217,
+      "record_id": "QA02",
+      "column": "Finding / value"
+    }
+  ],
+  "limitations": [
+    "Application QA does not verify historical claims.",
+    "21 registered fields remain Not reviewed; 15 research gaps are open.",
+    "Original 2026 closure order and laddu chargesheet were not inspected; qualified reporting is used.",
+    "Formula caches are not fabricated; Excel and Numbers calculate the delivery workbook on opening.",
+    "Only inspected regions are covered by visual review; see recorded scope."
+  ],
+  "application": {
+    "engine": "Numbers Creator Studio",
+    "export_sha256": "9e0e5effcfd1d7f47147b292fc239e9852388cef67239d1f1175f438355cf3bc",
+    "results": [
+      {
+        "record_id": "EL03",
+        "sheet": "Elections",
+        "cell": "N8",
+        "engine_value": 6918
+      },
+      {
+        "record_id": "EL04",
+        "sheet": "Elections",
+        "cell": "N9",
+        "engine_value": 56588
+      },
+      {
+        "record_id": "EL05",
+        "sheet": "Elections",
+        "cell": "N10",
+        "engine_value": 65687
+      },
+      {
+        "record_id": "EL06",
+        "sheet": "Elections",
+        "cell": "N11",
+        "engine_value": 59588
+      },
+      {
+        "record_id": "EL07",
+        "sheet": "Elections",
+        "cell": "N12",
+        "engine_value": 46066
+      },
+      {
+        "record_id": "EL08",
+        "sheet": "Elections",
+        "cell": "N13",
+        "engine_value": 47121
+      },
+      {
+        "record_id": "EL09",
+        "sheet": "Elections",
+        "cell": "N14",
+        "engine_value": 30722
+      },
+      {
+        "record_id": "EL10",
+        "sheet": "Elections",
+        "cell": "N15",
+        "engine_value": 48006
+      },
+      {
+        "record_id": "QA01",
+        "sheet": "Overview",
+        "cell": "C24",
+        "engine_value": 196
+      },
+      {
+        "record_id": "QA02",
+        "sheet": "Overview",
+        "cell": "C25",
+        "engine_value": 217
+      }
+    ]
+  },
+  "visual": {
+    "engine": "Numbers Creator Studio PDF export; PDFKit crops, no reflow",
+    "reviewed_at": "2026-10-28",
+    "final_workbook_sha256": "39fc293041d6f6fb6a52cef70c2d860289d3a66d1bcff8af8f3023832678b0d1",
+    "baseline_workbook_sha256": "76594f0b27735e752dfbdb3f8aa31959f81b510e1f174c4701cfdb9d23d96911",
+    "baseline_pdf_sha256": "d854cfcaee2409f12d90d82b2a5749f09efb6f490f134228bd840cc03aaabf2a",
+    "expanded_pdf_sha256": "46dc9edbdaa31fb2825fa7b27c834f9e39a486b3fc7c06ec65bba2734ef6e26c",
+    "final_pdf_sha256": "de5ad2d87a411c973b5875cba1810dd0db758b8b84f13c97846646eb6da88cbd",
+    "baseline_regions": [
+      {
+        "page": 1,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 2,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 3,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 4,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 5,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 6,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 7,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 8,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 9,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 10,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 11,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 12,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 13,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 14,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 1,
+        "region": "bottom 800 PDF points"
+      },
+      {
+        "page": 2,
+        "region": "bottom 800 PDF points"
+      },
+      {
+        "page": 6,
+        "region": "bottom 800 PDF points"
+      },
+      {
+        "page": 10,
+        "region": "bottom 800 PDF points"
+      },
+      {
+        "page": 11,
+        "region": "bottom 800 PDF points"
+      },
+      {
+        "page": 12,
+        "region": "bottom 800 PDF points"
+      },
+      {
+        "page": 13,
+        "region": "bottom 800 PDF points"
+      }
+    ],
+    "expanded_regions": [
+      "4:1350:130:1200:750",
+      "4:2500:130:1400:750",
+      "6:1400:130:1600:780",
+      "8:1400:130:1600:700",
+      "2:1400:130:1700:800",
+      "10:700:130:1550:750",
+      "5:1400:130:1450:750"
+    ],
+    "final_regions": [
+      "Career Timeline: bottom; exact 28 April 2026 date",
+      "Elections: top; increased 2014 row height"
+    ],
+    "findings": "Sampled text, dates, percentages, vote margins, source links, review flags, legal cautions and expanded notes were readable. No cell overflow observed in inspected regions.",
+    "limits": "Visual sampling, not inspection of every cell. Expanded preview predates final 2014 wording and S046 date refinement. Final baseline rendering and recalculation rechecked. Delivery preserves original Excel tables and grouping; disposable Numbers exports are not delivered."
+  },
+  "source_access": {
+    "registered": 46,
+    "passage_inspected": 43,
+    "search_excerpt_only": 3,
+    "failed_fallback_records": 11
+  }
+}
