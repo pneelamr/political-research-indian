@@ -1,0 +1,593 @@
+{
+  "subject": "M. G. Ramachandran",
+  "file": "M_G_Ramachandran_Political_Research.xlsx",
+  "workbook_sha256": "87d54838a26fe53cf2bd5960be6d02d11d399f5beb15d63531ae301db70f5419",
+  "checks": {
+    "structure": "PASS",
+    "provenance_integrity": "PASS",
+    "arithmetic": "PASS: expectations calculated independently in Python",
+    "application_recalculation": "PASS",
+    "visual_inspection": "PASS: all 14 worksheet headers and leading rows, ten additional dense/lower regions and six expanded-column regions inspected in Numbers PDF exports. Changed Sources and Evidence sheets rechecked after the final source-note revision."
+  },
+  "evidence": {
+    "registered_fields": 191,
+    "status_counts": {
+      "Supported": 183,
+      "Not reviewed": 8
+    },
+    "note": "These are review units, not a percentage of historical truth or complete atomic-claim coverage."
+  },
+  "sheets": {
+    "Overview": 23,
+    "Context & Constraints": 60,
+    "Career Timeline": 30,
+    "Elections": 6,
+    "Offices & Party": 12,
+    "Policy & Governance": 12,
+    "Ideas & Political Method": 8,
+    "Controversies": 6,
+    "Legacy & Assessments": 8,
+    "Sources": 32,
+    "Claims": 191,
+    "Evidence": 332,
+    "Citations": 302,
+    "Research Queue": 12
+  },
+  "hyperlinks_checked": 2833,
+  "formula_checks": [
+    {
+      "sheet": "Elections",
+      "cell": "L7",
+      "formula": "=F7-J7",
+      "expected": 27674,
+      "record_id": "EL02",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "L8",
+      "formula": "=F8-J8",
+      "expected": 24632,
+      "record_id": "EL03",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "L9",
+      "formula": "=F9-J9",
+      "expected": 29378,
+      "record_id": "EL04",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "L10",
+      "formula": "=F10-J10",
+      "expected": 21066,
+      "record_id": "EL05",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "L11",
+      "formula": "=F11-J11",
+      "expected": 32484,
+      "record_id": "EL06",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C21",
+      "formula": "=COUNTIF(Claims!D6:D196,\"Supported\")",
+      "expected": 183,
+      "record_id": "QA01",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C22",
+      "formula": "=COUNTA(Claims!A6:A196)",
+      "expected": 191,
+      "record_id": "QA02",
+      "column": "Finding / value"
+    }
+  ],
+  "limitations": [
+    "Original delivery formulas recalculate on opening; formula caches were not manufactured. Cache-only viewers may display blank formula cells.",
+    "183 of 191 registered fields have inspected-passage support or bounded synthesis; eight remain Not reviewed. Counts do not measure historical truth or exhaustive coverage.",
+    "The 32-source register includes 26 inspected sources and six unresolved primary leads. Original constituency returns, office boundaries, inquiry exhibits and independent policy outcomes remain in the 12-item research queue.",
+    "Some institutional biographies and secondary histories contain chronology errors; the source register identifies rejected claims and fallback limitations.",
+    "Visual sampling does not establish historical accuracy or certify uninspected cells and spreadsheet applications."
+  ],
+  "application": {
+    "engine": "Numbers Creator Studio",
+    "export_sha256": "8a941d51837814ff39b6daf92dc8fe87c54b1d1f8399e15bcabef9b571a5b078",
+    "results": [
+      {
+        "record_id": "EL02",
+        "sheet": "Elections",
+        "cell": "L7",
+        "engine_value": 27674
+      },
+      {
+        "record_id": "EL03",
+        "sheet": "Elections",
+        "cell": "L8",
+        "engine_value": 24632
+      },
+      {
+        "record_id": "EL04",
+        "sheet": "Elections",
+        "cell": "L9",
+        "engine_value": 29378
+      },
+      {
+        "record_id": "EL05",
+        "sheet": "Elections",
+        "cell": "L10",
+        "engine_value": 21066
+      },
+      {
+        "record_id": "EL06",
+        "sheet": "Elections",
+        "cell": "L11",
+        "engine_value": 32484
+      },
+      {
+        "record_id": "QA01",
+        "sheet": "Overview",
+        "cell": "C21",
+        "engine_value": 183
+      },
+      {
+        "record_id": "QA02",
+        "sheet": "Overview",
+        "cell": "C22",
+        "engine_value": 191
+      }
+    ]
+  },
+  "visual_inspection": {
+    "engine": "Numbers Creator Studio",
+    "review_date": "2026-10-26",
+    "workbook_sha256": "87d54838a26fe53cf2bd5960be6d02d11d399f5beb15d63531ae301db70f5419",
+    "pdf_sha256": "6329cc12fcc8e2b582d46c36068a2c102caa2f0e71124e36e753833deda0088a",
+    "expanded_input_sha256": "22c1de2d65e6f3ab51a3d94833880fe281ba97b86d2ae48fea10e90766c17c93",
+    "expanded_pdf_sha256": "1d2e6e83cada5223cae8d597b6ae562d25be209cea269980ae1a508228f2b911",
+    "baseline_workbook_sha256": "0dc71199e7696cd5cc1c4b6a2609ab421c57a07312398fd7ec031485e8b14783",
+    "baseline_pdf_sha256": "c53aab5a83b87f72dded019c9d170639b0b345b5366201e09f9a1158baf42c4d",
+    "baseline_expanded_pdf_sha256": "bdde1df68e3017e6e10cef21c3a6b0674c8a2e4fc0ff4de166858d2b5540312d",
+    "revision_check": {
+      "changed_sheets": [
+        "Sources",
+        "Evidence"
+      ],
+      "unchanged_sheets": [
+        "Overview",
+        "Context & Constraints",
+        "Career Timeline",
+        "Elections",
+        "Offices & Party",
+        "Policy & Governance",
+        "Ideas & Political Method",
+        "Controversies",
+        "Legacy & Assessments",
+        "Claims",
+        "Citations",
+        "Research Queue"
+      ]
+    },
+    "revision_check_note": "Only Sources and Evidence sheet XML changed in the final revision; the other 12 sheets and shared styles/workbook definitions were byte-identical. Final Sources and Evidence exports were re-inspected; prior inspections remain applicable to unchanged sheets.",
+    "expanded_copy_changes": "Unhid supporting columns and expanded print areas only; delivery workbook retains grouped columns.",
+    "temporary_artifact_directory": "/private/tmp/mgr-research-qa",
+    "default_view_regions": [
+      {
+        "sheet": "Overview",
+        "page": 1,
+        "region": "top",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 1075,
+          "width": 1183,
+          "height": 800
+        },
+        "image": "pages/page-1-top.png"
+      },
+      {
+        "sheet": "Context & Constraints",
+        "page": 2,
+        "region": "top",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 3585,
+          "width": 1507,
+          "height": 800
+        },
+        "image": "pages/page-2-top.png"
+      },
+      {
+        "sheet": "Career Timeline",
+        "page": 3,
+        "region": "top",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 1157,
+          "width": 1363,
+          "height": 800
+        },
+        "image": "pages/page-3-top.png"
+      },
+      {
+        "sheet": "Elections",
+        "page": 4,
+        "region": "top",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 0,
+          "width": 1423,
+          "height": 792
+        },
+        "image": "pages/page-4-top.png"
+      },
+      {
+        "sheet": "Offices & Party",
+        "page": 5,
+        "region": "top",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 101,
+          "width": 1447,
+          "height": 800
+        },
+        "image": "pages/page-5-top.png"
+      },
+      {
+        "sheet": "Policy & Governance",
+        "page": 6,
+        "region": "top",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 151,
+          "width": 1447,
+          "height": 800
+        },
+        "image": "pages/page-6-top.png"
+      },
+      {
+        "sheet": "Ideas & Political Method",
+        "page": 7,
+        "region": "top",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 0,
+          "width": 1183,
+          "height": 792
+        },
+        "image": "pages/page-7-top.png"
+      },
+      {
+        "sheet": "Controversies",
+        "page": 8,
+        "region": "top",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 0,
+          "width": 1507,
+          "height": 792
+        },
+        "image": "pages/page-8-top.png"
+      },
+      {
+        "sheet": "Legacy & Assessments",
+        "page": 9,
+        "region": "top",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 139,
+          "width": 1099,
+          "height": 800
+        },
+        "image": "pages/page-9-top.png"
+      },
+      {
+        "sheet": "Sources",
+        "page": 10,
+        "region": "top",
+        "render": "final-rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 2017,
+          "width": 847,
+          "height": 800
+        },
+        "image": "final-pages/page-10-top.png"
+      },
+      {
+        "sheet": "Claims",
+        "page": 11,
+        "region": "top",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 11135,
+          "width": 979,
+          "height": 800
+        },
+        "image": "pages/page-11-top.png"
+      },
+      {
+        "sheet": "Evidence",
+        "page": 12,
+        "region": "top",
+        "render": "final-rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 37693,
+          "width": 1039,
+          "height": 800
+        },
+        "image": "final-pages/page-12-top.png"
+      },
+      {
+        "sheet": "Citations",
+        "page": 13,
+        "region": "top",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 16851,
+          "width": 895,
+          "height": 800
+        },
+        "image": "pages/page-13-top.png"
+      },
+      {
+        "sheet": "Research Queue",
+        "page": 14,
+        "region": "top",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 93,
+          "width": 1273,
+          "height": 800
+        },
+        "image": "pages/page-14-top.png"
+      },
+      {
+        "sheet": "Overview",
+        "page": 1,
+        "region": "bottom",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 0,
+          "width": 1183,
+          "height": 800
+        },
+        "image": "pages/page-1-bottom.png"
+      },
+      {
+        "sheet": "Context & Constraints",
+        "page": 2,
+        "region": "bottom",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 0,
+          "width": 1507,
+          "height": 800
+        },
+        "image": "pages/page-2-bottom.png"
+      },
+      {
+        "sheet": "Career Timeline",
+        "page": 3,
+        "region": "middle",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 578.5,
+          "width": 1363,
+          "height": 800
+        },
+        "image": "pages/page-3-middle.png"
+      },
+      {
+        "sheet": "Policy & Governance",
+        "page": 6,
+        "region": "bottom",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 0,
+          "width": 1447,
+          "height": 800
+        },
+        "image": "pages/page-6-bottom.png"
+      },
+      {
+        "sheet": "Legacy & Assessments",
+        "page": 9,
+        "region": "bottom",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 0,
+          "width": 1099,
+          "height": 800
+        },
+        "image": "pages/page-9-bottom.png"
+      },
+      {
+        "sheet": "Sources",
+        "page": 10,
+        "region": "bottom",
+        "render": "final-rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 0,
+          "width": 847,
+          "height": 800
+        },
+        "image": "final-pages/page-10-bottom.png"
+      },
+      {
+        "sheet": "Claims",
+        "page": 11,
+        "region": "middle",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 5567.5,
+          "width": 979,
+          "height": 800
+        },
+        "image": "pages/page-11-middle.png"
+      },
+      {
+        "sheet": "Evidence",
+        "page": 12,
+        "region": "middle",
+        "render": "final-rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 18846.5,
+          "width": 1039,
+          "height": 800
+        },
+        "image": "final-pages/page-12-middle.png"
+      },
+      {
+        "sheet": "Evidence",
+        "page": 12,
+        "region": "bottom",
+        "render": "final-rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 0,
+          "width": 1039,
+          "height": 800
+        },
+        "image": "final-pages/page-12-bottom.png"
+      },
+      {
+        "sheet": "Citations",
+        "page": 13,
+        "region": "bottom",
+        "render": "rendered.pdf",
+        "rectangle_pdf_points": {
+          "x": 0,
+          "y_from_bottom": 0,
+          "width": 895,
+          "height": 800
+        },
+        "image": "pages/page-13-bottom.png"
+      }
+    ],
+    "expanded_view_regions": [
+      {
+        "sheet": "Elections",
+        "page": 4,
+        "rectangle_pdf_points": {
+          "x": 1320,
+          "top": 130,
+          "width": 1100,
+          "height": 650
+        },
+        "image": "regions/region-1.png",
+        "render": "expanded.pdf"
+      },
+      {
+        "sheet": "Elections",
+        "page": 4,
+        "rectangle_pdf_points": {
+          "x": 3870,
+          "top": 130,
+          "width": 1400,
+          "height": 650
+        },
+        "image": "regions/region-2.png",
+        "render": "expanded.pdf"
+      },
+      {
+        "sheet": "Policy & Governance",
+        "page": 6,
+        "rectangle_pdf_points": {
+          "x": 1320,
+          "top": 130,
+          "width": 1250,
+          "height": 780
+        },
+        "image": "regions/region-3.png",
+        "render": "expanded.pdf"
+      },
+      {
+        "sheet": "Controversies",
+        "page": 8,
+        "rectangle_pdf_points": {
+          "x": 1390,
+          "top": 130,
+          "width": 1400,
+          "height": 650
+        },
+        "image": "regions/region-4.png",
+        "render": "expanded.pdf"
+      },
+      {
+        "sheet": "Context & Constraints",
+        "page": 2,
+        "rectangle_pdf_points": {
+          "x": 1400,
+          "top": 130,
+          "width": 1400,
+          "height": 800
+        },
+        "image": "regions/region-5.png",
+        "render": "expanded.pdf"
+      },
+      {
+        "sheet": "Sources",
+        "page": 10,
+        "rectangle_pdf_points": {
+          "x": 1650,
+          "top": 130,
+          "width": 1050,
+          "height": 750
+        },
+        "image": "regions/region-6.png",
+        "render": "expanded.pdf"
+      }
+    ],
+    "final_expanded_source_regions": [
+      "final-expanded-pages/page-10-middle.png",
+      "final-expanded-pages/page-10-bottom.png"
+    ],
+    "findings": "No material clipping, overlap or formula errors observed in inspected regions. Cuts at crop edges are sampling boundaries.",
+    "scope": "Visual sampling, not every cell; Numbers checked, Excel and LibreOffice not tested. Successful automation produced no tool error; GUI import-warning dialogs were not separately audited."
+  },
+  "arithmetic_details": {
+    "direct_contests": 5,
+    "verified_candidate_sums": {
+      "1967": 81151,
+      "1971": 107028,
+      "1977": 76582,
+      "1980": 95646
+    },
+    "checks": "All five candidate-minus-opponent margins and four shares independently recomputed. Seven formula results matched the actual Numbers export.",
+    "1984_denominator": "Not established; vote share intentionally blank, not zero."
+  },
+  "research_inputs_sha256": {
+    "research.json": "3c456fa52cc98cd2465e0e2ef8ed908222c0ef047dd3cd9ed6308cb5c963b22f",
+    "retrievals.json": "29040cce57ad5fd25cb957fc1dd8dd78fc63a3cd82fdd64d4843b83bd8eccdbc"
+  }
+}

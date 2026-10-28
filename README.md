@@ -11,6 +11,7 @@ Source-backed Excel research workbooks on Indian political figures, covering the
 | J. Jayalalithaa | [Jayalalithaa political research](J_Jayalalithaa_Political_Research.xlsx) | 26 October 2026 |
 | K. Chandrashekar Rao (KCR) | [KCR political research](KCR_Political_Research.xlsx) | 15 September 2026 |
 | L. K. Advani | [Advani political research](L_K_Advani_Political_Research.xlsx) | 21 October 2026 |
+| M. G. Ramachandran (MGR) | [MGR political research](M_G_Ramachandran_Political_Research.xlsx) | 25 October 2026 |
 | M. Karunanidhi | [Karunanidhi political research](M_Karunanidhi_Political_Research.xlsx) | 14 September 2026 |
 | Mamata Banerjee | [Banerjee political research](Mamata_Banerjee_Political_Research.xlsx) | 30 September 2026 |
 | Narendra Modi | [Modi political research](Narendra_Modi_Political_Research.xlsx) | 24 September 2026 |
@@ -25,12 +26,12 @@ Research dates indicate each workbook's stated cutoff or evidence-access date, n
 
 1. Download a workbook and open it in an application that supports `.xlsx` files, such as Microsoft Excel or LibreOffice Calc.
 2. Start with **Overview**, then use the detailed worksheets and table filters to explore a topic or career phase.
-3. Follow each record's source IDs to **Sources** for citations, links, and evidence limitations. Source IDs are local to each workbook. In the Vajpayee, Rahul Gandhi, Nirmala Sitharaman, Mamata Banerjee, Jyotiraditya Scindia, Sushma Swaraj, L. K. Advani and J. Jayalalithaa workbooks, **All citations** opens every cited source link and **Claims** shows which fields have passage evidence.
-4. Read claim types, procedural status, and qualification notes alongside the findings. In those eight workbooks, expand the **+** column group for supporting fields; the initial view prioritizes findings and review status.
+3. Follow each record's source IDs to **Sources** for citations, links, and evidence limitations. Source IDs are local to each workbook. In the Vajpayee, Rahul Gandhi, Nirmala Sitharaman, Mamata Banerjee, Jyotiraditya Scindia, Sushma Swaraj, L. K. Advani, M. G. Ramachandran and J. Jayalalithaa workbooks, **All citations** opens every cited source link and **Claims** shows which fields have passage evidence.
+4. Read claim types, procedural status, and qualification notes alongside the findings. In those nine workbooks, expand the **+** column group for supporting fields; the initial view prioritizes findings and review status.
 
 ## Workbook structure
 
-All twelve workbooks contain these worksheets; column layouts and depth vary by subject.
+All thirteen workbooks contain these worksheets; column layouts and depth vary by subject.
 
 | Worksheet | Coverage |
 | --- | --- |
@@ -68,6 +69,8 @@ Jyotiraditya Scindia’s [research records](research/jyotiraditya-scindia/resear
 Sushma Swaraj’s [research records](research/sushma-swaraj/research.json) and [retrieval register](research/sushma-swaraj/retrievals.json) cover four career phases, 11 direct contests, three Rajya Sabha elections and 47 sources. Of 230 registered fields, 222 have inspected-passage support or bounded synthesis; eight remain unreviewed. Twelve research-queue entries retain gaps in original returns, office boundaries, inaccessible diplomatic records and policy outcomes. Vote shares use inspected valid-vote denominators; unresolved shares remain blank. See her [validation report](research/sushma-swaraj/validation.json) for actual workbook checks.
 
 L. K. Advani’s [research records](research/l-k-advani/research.json) and [retrieval register](research/l-k-advani/retrievals.json) cover five career phases, eight Lok Sabha constituency victories across seven general elections, four Rajya Sabha elections and 43 sources. Of 272 registered fields, 261 have inspected-passage support or bounded synthesis; 11 remain unreviewed. Fifteen research-queue entries preserve gaps in primary returns, office boundaries, complete judicial and commission records, and policy outcomes. The 1999 result uses the official segment-and-postal total of 453,229; the 2014 share denominator explicitly includes NOTA. Criminal outcomes, commission findings and political assessments are kept distinct. See his [validation report](research/l-k-advani/validation.json) for actual workbook checks.
+
+M. G. Ramachandran’s [research records](research/m-g-ramachandran/research.json) and [retrieval register](research/m-g-ramachandran/retrievals.json) cover five career phases, five personal Assembly victories and a separately qualified 1962 Council entry. The 32-source register includes 26 inspected sources and six unresolved primary leads. Of 191 registered fields, 183 have inspected-passage support or bounded synthesis; eight remain unreviewed. Twelve research-queue entries preserve gaps in original election returns, office boundaries, inquiry exhibits, gender mechanisms and policy outcomes. The 1984 vote share is withheld pending a verified denominator. The 1980 interruption in government, later university operation and distinct press-privilege proceedings are preserved. See his [validation report](research/m-g-ramachandran/validation.json) for workbook checks.
 
 J. Jayalalithaa’s [research records](research/j-jayalalithaa/research.json) and [retrieval register](research/j-jayalalithaa/retrievals.json) cover four career phases, nine personal Assembly contests, a Rajya Sabha election and the separately classified rejected 2001 nominations. The workbook has 43 sources and 211 registered fields: 198 supported by inspected passages or bounded synthesis and 13 unreviewed. Fifteen research-queue entries retain gaps in original returns, office boundaries, inquiry documents and policy outcomes. The six ministries are separate; the assets appeal against her abated on death, while the surviving co-accused’s convictions were restored. See her [validation report](research/j-jayalalithaa/validation.json) for the independent workbook checks.
 
