@@ -1,0 +1,352 @@
+{
+  "subject": "J. Jayalalithaa",
+  "file": "J_Jayalalithaa_Political_Research.xlsx",
+  "workbook_sha256": "0d1934c0df4f2c32193c2bdb87bfa895fe71e3b1d054ac8858147ea0dea1fa7a",
+  "checks": {
+    "structure": "PASS",
+    "provenance_integrity": "PASS",
+    "arithmetic": "PASS: expectations calculated independently in Python",
+    "application_recalculation": "PASS",
+    "visual_inspection": "PASS: inspected Numbers-rendered default and expanded regions; final Overview count rechecked"
+  },
+  "evidence": {
+    "registered_fields": 211,
+    "status_counts": {
+      "Supported": 198,
+      "Not reviewed": 13
+    },
+    "note": "These are review units, not a percentage of historical truth or complete atomic-claim coverage."
+  },
+  "sheets": {
+    "Overview": 26,
+    "Context & Constraints": 50,
+    "Career Timeline": 31,
+    "Elections": 11,
+    "Offices & Party": 18,
+    "Policy & Governance": 13,
+    "Ideas & Political Method": 8,
+    "Controversies": 9,
+    "Legacy & Assessments": 8,
+    "Sources": 43,
+    "Claims": 211,
+    "Evidence": 354,
+    "Citations": 325,
+    "Research Queue": 15
+  },
+  "hyperlinks_checked": 3045,
+  "formula_checks": [
+    {
+      "sheet": "Elections",
+      "cell": "M7",
+      "formula": "=F7-L7",
+      "expected": 28731,
+      "record_id": "EL02",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "M8",
+      "formula": "=F8-L8",
+      "expected": 37215,
+      "record_id": "EL03",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "M9",
+      "formula": "=F9-L9",
+      "expected": 33291,
+      "record_id": "EL04",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "M10",
+      "formula": "=F10-L10",
+      "expected": -8366,
+      "record_id": "EL05",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "M12",
+      "formula": "=F12-L12",
+      "expected": 41201,
+      "record_id": "EL07",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "M13",
+      "formula": "=F13-L13",
+      "expected": 25186,
+      "record_id": "EL08",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "M14",
+      "formula": "=F14-L14",
+      "expected": 41848,
+      "record_id": "EL09",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "M15",
+      "formula": "=F15-L15",
+      "expected": 150722,
+      "record_id": "EL10",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "M16",
+      "formula": "=F16-L16",
+      "expected": 39545,
+      "record_id": "EL11",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C24",
+      "formula": "=COUNTIF(Claims!D6:D216,\"Supported\")",
+      "expected": 198,
+      "record_id": "QA01",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C25",
+      "formula": "=COUNTA(Claims!A6:A216)",
+      "expected": 211,
+      "record_id": "QA02",
+      "column": "Finding / value"
+    }
+  ],
+  "limitations": [
+    "The 198 supported field-level records include attributed interpretations and bounded syntheses; this count is not a percentage of historical truth or complete atomic-claim coverage.",
+    "Nine of 43 sources remain search-excerpt leads. Thirteen registered fields remain Not reviewed; the Research Queue holds 15 gaps.",
+    "Historical election counts use explicitly labelled secondary fallbacks; primary returns and eight vote-share denominators remain unresolved.",
+    "Exact office boundaries, original flood-audit material, complete posthumous inquiry records, and independent policy outcomes require further research.",
+    "All 11 formula results were checked through a real Numbers export. The delivery file retains formulas with recalculation-on-open and no manufactured caches; cache-only viewers may initially show blanks.",
+    "Visual inspection is sampled and application-specific; unchanged-sheet XML was verified after the one-cell summary correction."
+  ],
+  "application": {
+    "engine": "Numbers Creator Studio",
+    "export_sha256": "a7426d53b8fc84a6bbe3ff7bf325ec194d488694a90fab0205e715b56f2bbf77",
+    "results": [
+      {
+        "record_id": "EL02",
+        "sheet": "Elections",
+        "cell": "M7",
+        "engine_value": 28731
+      },
+      {
+        "record_id": "EL03",
+        "sheet": "Elections",
+        "cell": "M8",
+        "engine_value": 37215
+      },
+      {
+        "record_id": "EL04",
+        "sheet": "Elections",
+        "cell": "M9",
+        "engine_value": 33291
+      },
+      {
+        "record_id": "EL05",
+        "sheet": "Elections",
+        "cell": "M10",
+        "engine_value": -8366
+      },
+      {
+        "record_id": "EL07",
+        "sheet": "Elections",
+        "cell": "M12",
+        "engine_value": 41201
+      },
+      {
+        "record_id": "EL08",
+        "sheet": "Elections",
+        "cell": "M13",
+        "engine_value": 25186
+      },
+      {
+        "record_id": "EL09",
+        "sheet": "Elections",
+        "cell": "M14",
+        "engine_value": 41848
+      },
+      {
+        "record_id": "EL10",
+        "sheet": "Elections",
+        "cell": "M15",
+        "engine_value": 150722
+      },
+      {
+        "record_id": "EL11",
+        "sheet": "Elections",
+        "cell": "M16",
+        "engine_value": 39545
+      },
+      {
+        "record_id": "QA01",
+        "sheet": "Overview",
+        "cell": "C24",
+        "engine_value": 198
+      },
+      {
+        "record_id": "QA02",
+        "sheet": "Overview",
+        "cell": "C25",
+        "engine_value": 211
+      }
+    ]
+  },
+  "validation_date": "2026-10-27",
+  "source_access_counts": {
+    "Passage inspected": 34,
+    "Search excerpt only": 9
+  },
+  "arithmetic_details": {
+    "personal_assembly_contests": 9,
+    "wins": 8,
+    "losses": 1,
+    "signed_margin_formulas_checked": 9,
+    "share_denominator_checked_contests": 1,
+    "contests_without_checked_share": 8,
+    "2015_share": 0.8843126446918752,
+    "2015_denominator_note": "181420 includes 2376 NOTA votes; do not describe as valid candidate votes only.",
+    "2002_opponent_note": "37236 is derived from 78437 candidate votes minus reported margin 41201; primary return still needed.",
+    "metric_correction": "Include both general elections and by-elections in the direct-contest completeness metrics; only Overview!C28 changed, from 7 to 8."
+  },
+  "visual_inspection": {
+    "engine": "Numbers Creator Studio PDF export, PDFKit actual-page crops",
+    "date": "2026-10-27",
+    "workbook_sha256": "0d1934c0df4f2c32193c2bdb87bfa895fe71e3b1d054ac8858147ea0dea1fa7a",
+    "delivery_pdf_sha256": "d77a9c6ce94b7fe47ea45d0c55317337bddfa069dd3397eb71b7df5e1a39d803",
+    "inspected_pre_metric_fix_workbook_sha256": "054ec01785eab299b1a94224fc7684be2ddf9d8e270e8362f97a9d27cc937af5",
+    "inspected_default_pdf_sha256": "ba47931a5d14e9c87b4348ed3cdac23709e56c046576d8feac304d6de840dac4",
+    "expanded_input_sha256": "a143cf2472abc7862d97c75c1f426e14a1d290b4be83d5d3eb43eec7c91fc981",
+    "expanded_pdf_sha256": "cde5df64d52c6a178e7f8410ecdcbf15852a854e8e70dc78b5e6f09e5ef68f94",
+    "default_regions": [
+      {
+        "sheet_number": 1,
+        "region": "top"
+      },
+      {
+        "sheet_number": 2,
+        "region": "top"
+      },
+      {
+        "sheet_number": 3,
+        "region": "top"
+      },
+      {
+        "sheet_number": 4,
+        "region": "top"
+      },
+      {
+        "sheet_number": 5,
+        "region": "top"
+      },
+      {
+        "sheet_number": 6,
+        "region": "top"
+      },
+      {
+        "sheet_number": 7,
+        "region": "top"
+      },
+      {
+        "sheet_number": 8,
+        "region": "top"
+      },
+      {
+        "sheet_number": 9,
+        "region": "top"
+      },
+      {
+        "sheet_number": 10,
+        "region": "top"
+      },
+      {
+        "sheet_number": 11,
+        "region": "top"
+      },
+      {
+        "sheet_number": 12,
+        "region": "top"
+      },
+      {
+        "sheet_number": 13,
+        "region": "top"
+      },
+      {
+        "sheet_number": 14,
+        "region": "top"
+      },
+      {
+        "sheet_number": 1,
+        "region": "bottom"
+      },
+      {
+        "sheet_number": 2,
+        "region": "middle"
+      },
+      {
+        "sheet_number": 3,
+        "region": "bottom"
+      },
+      {
+        "sheet_number": 6,
+        "region": "bottom"
+      },
+      {
+        "sheet_number": 10,
+        "region": "bottom"
+      },
+      {
+        "sheet_number": 11,
+        "region": "bottom"
+      },
+      {
+        "sheet_number": 12,
+        "region": "middle"
+      },
+      {
+        "sheet_number": 13,
+        "region": "bottom"
+      },
+      {
+        "sheet_number": 14,
+        "region": "bottom"
+      }
+    ],
+    "expanded_regions_page_x_top_width_height": [
+      "4:1320:130:1300:650",
+      "4:2870:130:1500:650",
+      "6:1320:130:1800:800",
+      "8:1390:130:1750:650",
+      "2:1400:130:1700:850",
+      "10:1500:130:1150:750"
+    ],
+    "final_recheck": "delivery-pages/page-1-bottom.png: corrected Overview!C28 displays 8 without clipping. Byte comparison confirmed every other worksheet XML unchanged from the fully sampled version.",
+    "findings": [
+      "Headers, wrapped narrative, review-state fills, linked citations and long URLs were readable in sampled regions.",
+      "All nine signed margins, the 1996 negative margin, 2015 88.43% share and its denominator were visible in expanded election columns.",
+      "Legal procedure and subject-response columns remained separate and readable.",
+      "No within-cell text clipping, overflow, or hash/error displays observed in inspected regions. Crop-edge truncation is from the QA viewport, not worksheet cells."
+    ],
+    "scope": "Representative actual application rendering, not an exhaustive every-cell visual certification. Excel and LibreOffice were not separately rendered."
+  },
+  "input_sha256": {
+    "research/j-jayalalithaa/research.json": "41178c38e2bcaa91d2df2e4be36a22fa5306fc3ad5bdda8bd67e8ea6d3979597",
+    "research/j-jayalalithaa/retrievals.json": "62fe6c4d44e621b942f558be40f51e76f00eb545f23c6a565b747de3974b5d1a",
+    "research/j-jayalalithaa/author_research.py": "395b0d40a7619972da52bf5e2f61f14ed99f421beee743b32c7d0d2fdaf1c52a",
+    "research/j-jayalalithaa/author_sources.py": "931bbadacab291c807e42ae47379575acb38c52c3571a448c0445a269729ecb3",
+    "research/j-jayalalithaa/author_context.py": "5154d14fa9477f7bc6b099219721e6693eb237d12b10ccfe6497a08090e0aec1",
+    "workflow/indian-political-figure-research/scripts/research_workbook.py": "9b3679ec9704124b4495553c3d24c339e575a0a565c782b21e7fc57b87d2a5b2"
+  }
+}

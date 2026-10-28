@@ -182,7 +182,7 @@ def make_tables(data, retrievals):
         for g in data['gaps']]}
     counts = Counter(c['status'] for c in data['claims'])
     els = tables.get('Elections', {}).get('rows', [])
-    direct = [r for r in els if r['House / route'].endswith(' / direct')]
+    direct = [r for r in els if r['House / route'].endswith((' / direct', ' / by-election'))]
     metrics = [('Supported field claims', counts['Supported']), ('Registered field claims', len(data['claims'])),
                ('High-priority claims awaiting support', sum(c['priority'] == 'High' and c['status'] != 'Supported' for c in data['claims'])),
                ('Direct contests missing candidate votes', sum(r['Candidate votes'] is None for r in direct)),
