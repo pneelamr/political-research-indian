@@ -1,0 +1,256 @@
+{
+  "subject": "Rajiv Gandhi",
+  "file": "Rajiv_Gandhi_Political_Research.xlsx",
+  "workbook_sha256": "975df19f198752b9c4fbe26a7c8397ba16d1190cf46b14ba268d467f50d80034",
+  "checks": {
+    "structure": "PASS",
+    "provenance_integrity": "PASS",
+    "arithmetic": "PASS: expectations calculated independently in Python",
+    "application_recalculation": "PASS",
+    "visual_inspection": "PASS: every sheet sampled in Numbers PDF; dense and expanded regions inspected; changed election and citation cells rechecked on final export",
+    "passage_review": "167 supported registered fields; 15 not reviewed. Review coverage is not a completeness or historical-truth score."
+  },
+  "evidence": {
+    "registered_fields": 182,
+    "status_counts": {
+      "Supported": 167,
+      "Not reviewed": 15
+    },
+    "note": "These are review units, not a percentage of historical truth or complete atomic-claim coverage."
+  },
+  "sheets": {
+    "Overview": 27,
+    "Context & Constraints": 50,
+    "Career Timeline": 34,
+    "Elections": 7,
+    "Offices & Party": 12,
+    "Policy & Governance": 21,
+    "Ideas & Political Method": 9,
+    "Controversies": 10,
+    "Legacy & Assessments": 8,
+    "Sources": 43,
+    "Claims": 182,
+    "Evidence": 300,
+    "Citations": 308,
+    "Research Queue": 16
+  },
+  "hyperlinks_checked": 2760,
+  "formula_checks": [
+    {
+      "sheet": "Elections",
+      "cell": "N7",
+      "formula": "=F7-M7",
+      "expected": 314878,
+      "record_id": "EL02",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N8",
+      "formula": "=F8-M8",
+      "expected": 202138,
+      "record_id": "EL03",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "N9",
+      "formula": "=F9-M9",
+      "expected": 112085,
+      "record_id": "EL04",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C25",
+      "formula": "=COUNTIF(Claims!D6:D187,\"Supported\")",
+      "expected": 167,
+      "record_id": "QA01",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C26",
+      "formula": "=COUNTA(Claims!A6:A187)",
+      "expected": 182,
+      "record_id": "QA02",
+      "column": "Finding / value"
+    }
+  ],
+  "limitations": [
+    "15 registered fields remain Not reviewed; 16 research gaps are recorded.",
+    "Application QA does not verify historical claims.",
+    "Original 2026 Bofors order is uncollected; the procedural update is explicitly attributed to reporting.",
+    "Formula caches are not fabricated; the delivery workbook recalculates in a spreadsheet application.",
+    "Visual review covers recorded samples, not every cell."
+  ],
+  "application": {
+    "engine": "Numbers Creator Studio",
+    "export_sha256": "d5b835799137d340dc93bf65bb2d865d9f6873594f5002e9f6e83d807a9aec09",
+    "results": [
+      {
+        "record_id": "EL02",
+        "sheet": "Elections",
+        "cell": "N7",
+        "engine_value": 314878
+      },
+      {
+        "record_id": "EL03",
+        "sheet": "Elections",
+        "cell": "N8",
+        "engine_value": 202138
+      },
+      {
+        "record_id": "EL04",
+        "sheet": "Elections",
+        "cell": "N9",
+        "engine_value": 112085
+      },
+      {
+        "record_id": "QA01",
+        "sheet": "Overview",
+        "cell": "C25",
+        "engine_value": 167
+      },
+      {
+        "record_id": "QA02",
+        "sheet": "Overview",
+        "cell": "C26",
+        "engine_value": 182
+      }
+    ]
+  },
+  "visual": {
+    "engine": "Numbers Creator Studio PDF export; PDFKit crops without reflow",
+    "reviewed_at": "2026-10-29",
+    "final_workbook_sha256": "975df19f198752b9c4fbe26a7c8397ba16d1190cf46b14ba268d467f50d80034",
+    "baseline_workbook_sha256": "d82ba2d20713c4eb56c4d4cbaadc492a2b1f2a66bcfa0cf6ba599a3a533198d9",
+    "baseline_pdf_sha256": "ce12dfd663fc7a44c3869fc18a4062db6cdcb2c2456e9545b9db94c7edaf6653",
+    "expanded_input_sha256": "469af296b6d51cf97d177d1085c608b841c99fdaf2f998f847474823ff83b05d",
+    "expanded_pdf_sha256": "f1b81d7b77b73a73139d197d2fbe46cbb45e8f000a4067584e7dbf66da3889c7",
+    "final_pdf_sha256": "ba8a908df3f20b2abb56fc1470a5f9176e36032d466fb3186bed6cfa2e1b11a4",
+    "baseline_regions": [
+      {
+        "page": 1,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 2,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 3,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 4,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 5,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 6,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 7,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 8,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 9,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 10,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 11,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 12,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 13,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 14,
+        "region": "top 800 PDF points"
+      },
+      {
+        "page": 1,
+        "region": "bottom 800 PDF points"
+      },
+      {
+        "page": 2,
+        "region": "bottom 800 PDF points"
+      },
+      {
+        "page": 6,
+        "region": "bottom 800 PDF points"
+      },
+      {
+        "page": 10,
+        "region": "bottom 800 PDF points"
+      },
+      {
+        "page": 11,
+        "region": "bottom 800 PDF points"
+      },
+      {
+        "page": 12,
+        "region": "bottom 800 PDF points"
+      },
+      {
+        "page": 13,
+        "region": "bottom 800 PDF points"
+      },
+      {
+        "page": 14,
+        "region": "bottom 800 PDF points"
+      }
+    ],
+    "expanded_regions": [
+      "4:1400:130:1400:620",
+      "4:2750:130:1600:620",
+      "4:4300:130:1400:620",
+      "6:1400:130:1700:780",
+      "8:1400:130:1800:780",
+      "2:1480:130:1800:780",
+      "10:800:130:1850:780",
+      "5:1400:130:1700:740"
+    ],
+    "final_regions": [
+      "Elections: top, including all seven results",
+      "Sources: middle, including corrected S022 title",
+      "Citations: bottom, including corrected S022 title"
+    ],
+    "findings": "Sampled findings, source links, review flags, vote margins and percentages, office dates, policy limitations and controversy qualifications were readable; no overflow observed in inspected cells.",
+    "limits": "Expanded preview precedes the final party-result labels and S022 title refinement. Changed cells and formula recalculation were rechecked in the final export; disposable Numbers files are not delivered."
+  },
+  "source_access": {
+    "registered": 43,
+    "passage_inspected": 40,
+    "search_excerpt_only": 3,
+    "failed_fallback_records": 21
+  },
+  "reproducibility": {
+    "research_sha256": "1230408209f0c1d086db1938efa0fcf3ebc14efe8dcf3952a0830473d37c15af",
+    "retrievals_sha256": "20f2c8a10ebac45b6bacd2d2963c6f34f797c6b5b1fae00b29ddf6674499adaf",
+    "author_scripts": [
+      "author_sources.py",
+      "author_research.py",
+      "author_context.py"
+    ],
+    "build_command": "python research/rajiv-gandhi/author_research.py; python workflow/indian-political-figure-research/scripts/research_workbook.py research/rajiv-gandhi/research.json --output Rajiv_Gandhi_Political_Research.xlsx"
+  }
+}
