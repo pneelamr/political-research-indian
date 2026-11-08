@@ -1,0 +1,188 @@
+{
+  "subject": "Sonia Gandhi",
+  "file": "Sonia_Gandhi_Political_Research.xlsx",
+  "workbook_sha256": "2b17dd183764388579fe9ecb430b9858e23137b135dd50a684db776039a017cd",
+  "checks": {
+    "structure": "PASS",
+    "provenance_integrity": "PASS",
+    "arithmetic": "PASS: expectations calculated independently in Python",
+    "application_recalculation": "PASS",
+    "visual_inspection": "PASS: sampled default-view regions in Numbers PDF export"
+  },
+  "evidence": {
+    "registered_fields": 163,
+    "status_counts": {
+      "Supported": 151,
+      "Not reviewed": 11,
+      "Partially supported": 1
+    },
+    "note": "These are review units, not a percentage of historical truth or complete atomic-claim coverage."
+  },
+  "sheets": {
+    "Overview": 23,
+    "Context & Constraints": 50,
+    "Career Timeline": 24,
+    "Elections": 8,
+    "Offices & Party": 14,
+    "Policy & Governance": 11,
+    "Ideas & Political Method": 8,
+    "Controversies": 8,
+    "Legacy & Assessments": 7,
+    "Sources": 35,
+    "Claims": 163,
+    "Evidence": 258,
+    "Citations": 253,
+    "Research Queue": 8
+  },
+  "hyperlinks_checked": 2349,
+  "formula_checks": [
+    {
+      "sheet": "Elections",
+      "cell": "F6",
+      "formula": "=E6-L6",
+      "expected": 300012,
+      "record_id": "EL01",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "F7",
+      "formula": "=E7-L7",
+      "expected": 56100,
+      "record_id": "EL02",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "F8",
+      "formula": "=E8-L8",
+      "expected": 249765,
+      "record_id": "EL03",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "F9",
+      "formula": "=E9-L9",
+      "expected": 417888,
+      "record_id": "EL04",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "F10",
+      "formula": "=E10-L10",
+      "expected": 372165,
+      "record_id": "EL05",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "F11",
+      "formula": "=E11-L11",
+      "expected": 352713,
+      "record_id": "EL06",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "F12",
+      "formula": "=E12-L12",
+      "expected": 167178,
+      "record_id": "EL07",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C21",
+      "formula": "=COUNTIF(Claims!D6:D168,\"Supported\")",
+      "expected": 151,
+      "record_id": "QA01",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C22",
+      "formula": "=COUNTA(Claims!A6:A168)",
+      "expected": 163,
+      "record_id": "QA02",
+      "column": "Finding / value"
+    }
+  ],
+  "limitations": [
+    "No formula caches manufactured.",
+    "Row-height estimates are not a visual check.",
+    "Source presence does not certify factual support; inherited claim types await review."
+  ],
+  "application": {
+    "engine": "Numbers Creator Studio",
+    "export_sha256": "227352912e5c7591101c27b266530b7d346a543c6c2b122fd5cdaa866f576b6a",
+    "results": [
+      {
+        "record_id": "EL01",
+        "sheet": "Elections",
+        "cell": "F6",
+        "engine_value": 300012
+      },
+      {
+        "record_id": "EL02",
+        "sheet": "Elections",
+        "cell": "F7",
+        "engine_value": 56100
+      },
+      {
+        "record_id": "EL03",
+        "sheet": "Elections",
+        "cell": "F8",
+        "engine_value": 249765
+      },
+      {
+        "record_id": "EL04",
+        "sheet": "Elections",
+        "cell": "F9",
+        "engine_value": 417888
+      },
+      {
+        "record_id": "EL05",
+        "sheet": "Elections",
+        "cell": "F10",
+        "engine_value": 372165
+      },
+      {
+        "record_id": "EL06",
+        "sheet": "Elections",
+        "cell": "F11",
+        "engine_value": 352713
+      },
+      {
+        "record_id": "EL07",
+        "sheet": "Elections",
+        "cell": "F12",
+        "engine_value": 167178
+      },
+      {
+        "record_id": "QA01",
+        "sheet": "Overview",
+        "cell": "C21",
+        "engine_value": 151
+      },
+      {
+        "record_id": "QA02",
+        "sheet": "Overview",
+        "cell": "C22",
+        "engine_value": 163
+      }
+    ]
+  },
+  "visual": {
+    "engine": "Numbers Creator Studio PDF export",
+    "scope": "Top regions of all 14 sheets; additional Context bottom, Evidence middle and Citations bottom regions.",
+    "finding": "Sampled cells wrap legibly with no observed cell-text overflow.",
+    "limitations": [
+      "Not every cell inspected.",
+      "Expanded hidden-detail columns exported but detailed visual review not completed.",
+      "Excel and LibreOffice rendering not tested."
+    ],
+    "pdf_sha256": "cc7b37834d42eb8d40caafc93a224b3df2fd423710fc72fd4c00737c8f42673f"
+  }
+}
