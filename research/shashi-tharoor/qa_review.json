@@ -1,0 +1,154 @@
+{
+  "subject": "Shashi Tharoor",
+  "reviewed_at_utc": "2026-11-16T08:17:12.042740+00:00",
+  "workbook_sha256": "532debd83d906c44046b88ee2101b7886633f29ef6efb6f7aeee592b31159047",
+  "result": "PASS",
+  "engine": "Numbers Creator Studio",
+  "method": "Manually inspected raster crops of actual Numbers PDF exports, including every sheet and expanded supplementary columns; no reflowed or synthetic spreadsheet rendering.",
+  "scope": "14 sheet top regions, Overview summary formulas, gender-context rows, dense Claims/Evidence samples and seven expanded detail regions.",
+  "limitation": "Sampled visual inspection, not every cell. Temporary exports may expire; hashes identify the artifacts. Formula caches in original are intentionally empty and recalculate on open.",
+  "pdfs": [
+    {
+      "path": "/private/tmp/tharoor-research-qa/rendered.pdf",
+      "sha256": "74bda3ee8d679750a5c6c7afa50927a6cf55ffc65bfd2c9f017fac4bc256dcb9"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/expanded.pdf",
+      "sha256": "e52dc2151e2caff56ba971666cd30ca68b4fc4745f4b8227bd8c84b7df8813c3"
+    }
+  ],
+  "inspected_regions": [
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/01-bottom.png",
+      "sha256": "d916c7e9fcb3396b2c4756f325928db7f1328b48c938376a29c9f293576b27b8"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/01-top.png",
+      "sha256": "ac5b4e478311342b7e0b43efbf65d3b384f47d653ed0780ec3c2f80f175b3823"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/02-gender.png",
+      "sha256": "2e22a78660511fa89177c9f53dda9082c0d6dd48b76103797452a4a80da614b6"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/02-top.png",
+      "sha256": "9e88362b858aaf8cd36da5eb111fc29d98cf5ff1b6403af2920b583a0edef4d1"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/03-top.png",
+      "sha256": "9984a4a9c13ec40ffe0d0a169c916da212ebd85a6ef8dcce118cfca80be6d850"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/04-top.png",
+      "sha256": "d389dbeaea2c18b90e2f74bf15082085bbb291432eb5b95688f5b84bf877a67e"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/05-top.png",
+      "sha256": "8f64f01a8bd693ce7dbca1115b5d138904c8193cfe53b2c440a525dc00ade755"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/06-top.png",
+      "sha256": "c04438aac114274d64fd3a685b0f286b08a1878257b5eda0133e3600ff5d7cee"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/07-top.png",
+      "sha256": "c9af5db2e1c5f630400da5f5d5278ec2446ee29f109a62564e679519c458a0a4"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/08-top.png",
+      "sha256": "03344b6870e6cfc665deb0ae7423a014340466d308a55e117c19c6be141fbcfa"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/09-top.png",
+      "sha256": "29b4993ed13cc969422476cd5e212b9f730552b3a058f64b29b82034941e748f"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/10-top.png",
+      "sha256": "83ef7a9627cccb0f7a69f1615728566a5f92e4bcf753816aa686e65847bb51d5"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/11-middle.png",
+      "sha256": "7f8178fa0c913b0e0afbbe4a61ba810f1058171da6f34de5bfba0c3e8bf3722c"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/11-top.png",
+      "sha256": "5dbd2a8b40b001de7fc30a16b5af668f1d97aa6a82f47fe0c925eef34998d6f1"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/12-middle.png",
+      "sha256": "66efb68ff9e2e6afe0340ad4b6c64c71d8c4d1854f99f260ef384b2038f7a795"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/12-top.png",
+      "sha256": "254b5e6785532e9fe00a3fad67cb5c22b9f92ac16db38b6577a66cf332f66dc6"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/13-top.png",
+      "sha256": "5f9788ee8906693489e221bfc2bd57247b77e7f08b5cd94e678037c08c59541e"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/pages/14-top.png",
+      "sha256": "538b62c284e7fcd63e00336b41dbcd9778826f58fc3cb318eed511720cc968a8"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/regions/01-page-4.png",
+      "sha256": "c20325ff0cd00b2f1f6900e31424a4017bc9fa167a535fb08a39b305bafb948f"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/regions/02-page-4.png",
+      "sha256": "0bc38abab7d7a620048f1fa015cd6b86037bc783f72827e571d687b36071b0e9"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/regions/03-page-5.png",
+      "sha256": "07797055f07923e9a981734641ce9dbec957db4c3a91a769d67958ee447950aa"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/regions/04-page-6.png",
+      "sha256": "cbd7d7f8596ccf408ac39ee211237d676e9f6f93ae827e86fb8f77e9c6010770"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/regions/05-page-8.png",
+      "sha256": "4daf8d15085f4118f7d02195cbfd21db6f19dbc520e2ab6d99dff3495d1a8c5e"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/regions/06-page-2.png",
+      "sha256": "2b833bc349dc08b3f6255a4f9209b695228eb44d649319ac4f7d3554fd4ccd91"
+    },
+    {
+      "path": "/private/tmp/tharoor-research-qa/regions/07-page-10.png",
+      "sha256": "115f62318cad180f4e0a9e67a02f5628fb2b2b0cf60004df0095e4122fd19222"
+    }
+  ],
+  "observations": [
+    "Wrapped text, headers and row heights fit inspected cells.",
+    "Election counts, denominators, shares and signed margins are readable.",
+    "Office dates, policy attribution limits and legal responses/status fit the expanded columns.",
+    "Citation navigation and amber evidence-gap markers are readable; crop boundaries may cut adjacent fields."
+  ],
+  "final_checks": {
+    "sheets": 14,
+    "hyperlinks_checked": 3179,
+    "application_formulas_passed": 14,
+    "application_error_cells": 0,
+    "expanded_values_and_formulas_identical": true
+  },
+  "substantive_review": {
+    "sources_registered": 44,
+    "sources_with_inspected_passages": 43,
+    "search_only_source": "S004",
+    "review_units": {
+      "Supported": 186,
+      "Partially supported": 5,
+      "Not reviewed": 11
+    },
+    "context_coverage": {
+      "phases": 4,
+      "era_items": 40,
+      "gender_items": 10
+    },
+    "open_research_queue_items": 9,
+    "elections": "Four personal Lok Sabha wins, separate Congress delegate ballot and separately qualified UN selection. All five numeric margins and shares independently recalculated. 2019 source and denominator caveat retained.",
+    "chronology": "UN interim/confirmed dates distinguished; 2022 committee transition accepted with unresolved effective month; current chair confirmed by September 2026 primary report.",
+    "accountability": "Allegations, responses, discharge, interim relief, civil summons and revision notices kept separate. Later final litigation dispositions not presumed."
+  }
+}

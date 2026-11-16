@@ -20,6 +20,7 @@ Source-backed Excel research workbooks on Indian political figures, covering the
 | Pinarayi Vijayan | [Vijayan political research](Pinarayi_Vijayan_Research.xlsx) | 15 September 2026 |
 | Rahul Gandhi | [Rahul Gandhi political research](Rahul_Gandhi_Political_Research.xlsx) | 24 September 2026 |
 | Rajiv Gandhi | [Rajiv Gandhi political research](Rajiv_Gandhi_Political_Research.xlsx) | 28 October 2026 |
+| Shashi Tharoor | [Tharoor political research](Shashi_Tharoor_Political_Research.xlsx) | 16 November 2026 |
 | Sushma Swaraj | [Swaraj political research](Sushma_Swaraj_Political_Research.xlsx) | 5 October 2026 |
 
 Research dates indicate each workbook's stated cutoff or evidence-access date, not the date of every underlying event or dataset. The Karunanidhi workbook's historical coverage runs through 7 August 2018.
@@ -28,12 +29,12 @@ Research dates indicate each workbook's stated cutoff or evidence-access date, n
 
 1. Download a workbook and open it in an application that supports `.xlsx` files, such as Microsoft Excel or LibreOffice Calc.
 2. Start with **Overview**, then use the detailed worksheets and table filters to explore a topic or career phase.
-3. Follow each record's source IDs to **Sources** for citations, links, and evidence limitations. Source IDs are local to each workbook. In the Vajpayee, Rahul Gandhi, Nirmala Sitharaman, Mamata Banerjee, Jyotiraditya Scindia, Sushma Swaraj, L. K. Advani, M. G. Ramachandran, J. Jayalalithaa, N. Chandrababu Naidu and Rajiv Gandhi workbooks, **All citations** opens every cited source link and **Claims** shows which fields have passage evidence.
-4. Read claim types, procedural status, and qualification notes alongside the findings. In those eleven workbooks, expand the **+** column group for supporting fields; the initial view prioritizes findings and review status.
+3. Follow each record's source IDs to **Sources** for citations, links, and evidence limitations. Source IDs are local to each workbook. In the Vajpayee, Rahul Gandhi, Nirmala Sitharaman, Mamata Banerjee, Jyotiraditya Scindia, Sushma Swaraj, L. K. Advani, M. G. Ramachandran, J. Jayalalithaa, N. Chandrababu Naidu, Rajiv Gandhi and Shashi Tharoor workbooks, **All citations** opens every cited source link and **Claims** shows which fields have passage evidence.
+4. Read claim types, procedural status, and qualification notes alongside the findings. In those twelve workbooks, expand the **+** column group for supporting fields; the initial view prioritizes findings and review status.
 
 ## Workbook structure
 
-All fifteen workbooks contain these worksheets; column layouts and depth vary by subject.
+All sixteen workbooks listed above contain these worksheets; column layouts and depth vary by subject.
 
 | Worksheet | Coverage |
 | --- | --- |
@@ -79,6 +80,8 @@ J. Jayalalithaa’s [research records](research/j-jayalalithaa/research.json) an
 N. Chandrababu Naidu’s [research records](research/n-chandrababu-naidu/research.json) and [retrieval register](research/n-chandrababu-naidu/retrievals.json) cover six phases, ten personal Assembly contests and 46 sources. Of 217 registered fields, 196 have inspected-passage support or bounded synthesis and 21 remain unreviewed. Fifteen research-queue entries preserve gaps in original returns, office boundaries, legal documents and policy outcomes. The four ministries and the change from undivided to successor Andhra Pradesh are distinguished. Recent coverage includes the 2026 capital amendment and reported skill-case closure, with procedural and outcome limitations retained. See his [validation report](research/n-chandrababu-naidu/validation.json) for the separate workbook checks. The three `author_*.py` files regenerate his normalized records before the shared builder runs.
 
 Rajiv Gandhi’s [research records](research/rajiv-gandhi/research.json) and [retrieval register](research/rajiv-gandhi/retrievals.json) cover four phases, four personal Amethi victories, three separate national Congress tallies and 43 sources. Of 182 registered fields, 167 have inspected-passage support or bounded synthesis and 15 remain unreviewed. Sixteen research-queue entries preserve gaps in the 1981 return, exact office dates, original legislation and legal orders, policy outcomes and gender evidence. The posthumous 1991 result is distinguished from parliamentary service. C-DOT’s pre-premiership origin, the failed 1989 local-government proposal, and the different procedural meanings of commission findings on the 1984 violence and Bofors rulings are retained. The latest Bofors update relies on labelled August 2026 reporting. See his [validation report](research/rajiv-gandhi/validation.json) for separate workbook checks; the three `author_*.py` files regenerate the normalized records.
+
+Shashi Tharoor’s [research records](research/shashi-tharoor/research.json) and [retrieval register](research/shashi-tharoor/retrievals.json) cover four phases, four Lok Sabha victories, the 2022 Congress presidential ballot and a separately qualified UN Secretary-General candidature. The 44-source register contains 43 inspected sources and one indexed lead. Of 202 registered fields, 186 have passage support or bounded synthesis, five are partially supported and 11 remain unreviewed. Nine research-queue entries preserve gaps in committee dates, original 2019 returns, current litigation outcomes, policy effects and gender evidence. Election share denominators are explicit; the 2021 judicial discharge is distinguished from acquittal after trial and subsequent revision. The [validation report](research/shashi-tharoor/validation.json) records 14 formula checks in Numbers and visual inspection of all 14 sheets, with the inspected regions in [qa_review.json](research/shashi-tharoor/qa_review.json). His `build.py` regenerates the records and workbook and resets application and visual checks.
 
 With Python 3.10+ and the dependencies in `requirements-research.txt` installed:
 

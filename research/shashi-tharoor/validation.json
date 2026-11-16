@@ -1,0 +1,282 @@
+{
+  "subject": "Shashi Tharoor",
+  "file": "/Users/padmaneelamraju/My Drive/Political Research by ChatGPT/Shashi_Tharoor_Political_Research.xlsx",
+  "workbook_sha256": "532debd83d906c44046b88ee2101b7886633f29ef6efb6f7aeee592b31159047",
+  "checks": {
+    "structure": "PASS",
+    "provenance_integrity": "PASS",
+    "arithmetic": "PASS: expectations calculated independently in Python",
+    "application_recalculation": "PASS",
+    "visual_inspection": "PASS: all 14 sheets and seven expanded detail regions inspected in actual Numbers PDF exports",
+    "substantive_review": "PASS WITH EXPLICIT GAPS: chronology, election arithmetic, proposal/outcome distinction and judicial procedure reviewed. Claim status records unresolved dates and unreviewed context dimensions."
+  },
+  "evidence": {
+    "registered_fields": 202,
+    "status_counts": {
+      "Supported": 186,
+      "Partially supported": 5,
+      "Not reviewed": 11
+    },
+    "note": "These are review units, not a percentage of historical truth or complete atomic-claim coverage."
+  },
+  "sheets": {
+    "Overview": 28,
+    "Context & Constraints": 50,
+    "Career Timeline": 26,
+    "Elections": 6,
+    "Offices & Party": 20,
+    "Policy & Governance": 15,
+    "Ideas & Political Method": 10,
+    "Controversies": 11,
+    "Legacy & Assessments": 8,
+    "Sources": 44,
+    "Claims": 202,
+    "Evidence": 385,
+    "Citations": 355,
+    "Research Queue": 9
+  },
+  "hyperlinks_checked": 3179,
+  "formula_checks": [
+    {
+      "sheet": "Elections",
+      "cell": "P6",
+      "formula": "=K6-M6",
+      "expected": 99998,
+      "record_id": "EL01",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "P7",
+      "formula": "=K7-M7",
+      "expected": 15470,
+      "record_id": "EL02",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "P8",
+      "formula": "=K8-M8",
+      "expected": 99989,
+      "record_id": "EL03",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "P9",
+      "formula": "=K9-M9",
+      "expected": 16077,
+      "record_id": "EL04",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "P10",
+      "formula": "=K10-M10",
+      "expected": -6825,
+      "record_id": "EL05",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C26",
+      "formula": "=COUNTIF(Claims!D6:D207,\"Supported\")",
+      "expected": 186,
+      "record_id": "QA01",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C27",
+      "formula": "=COUNTA(Claims!A6:A207)",
+      "expected": 202,
+      "record_id": "QA02",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "O6",
+      "formula": "=K6/N6",
+      "expected": 0.4429322665090471,
+      "record_id": "EL01",
+      "column": "Vote share"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "O7",
+      "formula": "=K7/N7",
+      "expected": 0.34095720260441176,
+      "record_id": "EL02",
+      "column": "Vote share"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "O8",
+      "formula": "=K8/N8",
+      "expected": 0.41193747648933854,
+      "record_id": "EL03",
+      "column": "Vote share"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "O9",
+      "formula": "=K9/N9",
+      "expected": 0.3719224534597184,
+      "record_id": "EL04",
+      "column": "Vote share"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "O10",
+      "formula": "=K10/N10",
+      "expected": 0.11952280075816701,
+      "record_id": "EL05",
+      "column": "Vote share"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C24",
+      "formula": "=COUNTIF(Elections!I6:I11,\"* / direct\")",
+      "expected": 4,
+      "record_id": "OV19",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C25",
+      "formula": "=COUNTIFS(Elections!I6:I11,\"* / direct\",Elections!D6:D11,\"Won\")",
+      "expected": 4,
+      "record_id": "OV20",
+      "column": "Finding / value"
+    }
+  ],
+  "limitations": [
+    "Research is a sourced snapshot, not an exhaustive biography or current court-docket certificate.",
+    "S004 remains an indexed lead, excluded from supporting evidence.",
+    "2019 counts use inspected ADR compilation; original consolidated return remains a gap.",
+    "Current litigation outcomes and some exact tenure boundaries are unresolved.",
+    "Activity and recommendations do not establish causal policy outcomes.",
+    "Formula caches are not fabricated; application and visual QA must be rerun after each rebuild."
+  ],
+  "arithmetic_detail": {
+    "direct_contests": 4,
+    "direct_victories": 4,
+    "signed_margins": [
+      99998,
+      15470,
+      99989,
+      16077
+    ],
+    "party_election_margin": -6825,
+    "candidate_shares": [
+      0.4429322665090471,
+      0.34095720260441176,
+      0.41193747648933854,
+      0.3719224534597184
+    ],
+    "denominator_rule": "2009 valid candidate votes; 2014/2024 counted votes including NOTA; 2019 ADR denominator; Congress valid delegate ballots."
+  },
+  "application": {
+    "engine": "Numbers Creator Studio",
+    "export_sha256": "6e46b858ab2c26e29610a52387eb6e52e29eb111bd1e3f6e8ce9651f82213ff4",
+    "results": [
+      {
+        "record_id": "EL01",
+        "sheet": "Elections",
+        "cell": "P6",
+        "engine_value": 99998
+      },
+      {
+        "record_id": "EL02",
+        "sheet": "Elections",
+        "cell": "P7",
+        "engine_value": 15470
+      },
+      {
+        "record_id": "EL03",
+        "sheet": "Elections",
+        "cell": "P8",
+        "engine_value": 99989
+      },
+      {
+        "record_id": "EL04",
+        "sheet": "Elections",
+        "cell": "P9",
+        "engine_value": 16077
+      },
+      {
+        "record_id": "EL05",
+        "sheet": "Elections",
+        "cell": "P10",
+        "engine_value": -6825
+      },
+      {
+        "record_id": "QA01",
+        "sheet": "Overview",
+        "cell": "C26",
+        "engine_value": 186
+      },
+      {
+        "record_id": "QA02",
+        "sheet": "Overview",
+        "cell": "C27",
+        "engine_value": 202
+      },
+      {
+        "record_id": "EL01",
+        "sheet": "Elections",
+        "cell": "O6",
+        "engine_value": 0.442932266509047
+      },
+      {
+        "record_id": "EL02",
+        "sheet": "Elections",
+        "cell": "O7",
+        "engine_value": 0.340957202604412
+      },
+      {
+        "record_id": "EL03",
+        "sheet": "Elections",
+        "cell": "O8",
+        "engine_value": 0.411937476489339
+      },
+      {
+        "record_id": "EL04",
+        "sheet": "Elections",
+        "cell": "O9",
+        "engine_value": 0.371922453459718
+      },
+      {
+        "record_id": "EL05",
+        "sheet": "Elections",
+        "cell": "O10",
+        "engine_value": 0.119522800758167
+      },
+      {
+        "record_id": "OV19",
+        "sheet": "Overview",
+        "cell": "C24",
+        "engine_value": 4
+      },
+      {
+        "record_id": "OV20",
+        "sheet": "Overview",
+        "cell": "C25",
+        "engine_value": 4
+      }
+    ]
+  },
+  "visual_review": {
+    "record": "research/shashi-tharoor/qa_review.json",
+    "record_sha256": "9cb3ad7511ac9a26c1972af4fd19377cadbfc825623cc9c5781d78116344bd2a",
+    "engine": "Numbers Creator Studio",
+    "regions_inspected": 25
+  },
+  "final_integrity": {
+    "sheets": 14,
+    "hyperlinks_checked": 3179,
+    "application_formulas_passed": 14,
+    "application_error_cells": 0,
+    "expanded_values_and_formulas_identical": true
+  }
+}
