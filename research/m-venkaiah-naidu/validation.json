@@ -1,0 +1,240 @@
+{
+  "subject": "M. Venkaiah Naidu",
+  "file": "/Users/padmaneelamraju/My Drive/Political Research by ChatGPT/M_Venkaiah_Naidu_Political_Research.xlsx",
+  "workbook_sha256": "2ec535c1a323b7ea6e8630bad8a9b4f9d957d16634cc2f271065914dfd4b1d70",
+  "checks": {
+    "structure": "PASS",
+    "provenance_integrity": "PASS",
+    "arithmetic": "PASS: expectations calculated independently in Python",
+    "application_recalculation": "PASS",
+    "visual_inspection": "PASS",
+    "substantive_review": "PASS WITH EXPLICIT GAPS: election identity/units, office boundaries, policy attribution and procedural wording reviewed; unresolved matters remain in Research Queue."
+  },
+  "evidence": {
+    "registered_fields": 298,
+    "status_counts": {
+      "Supported": 282,
+      "Not reviewed": 15,
+      "Disputed": 1
+    },
+    "note": "These are review units, not a percentage of historical truth or complete atomic-claim coverage."
+  },
+  "sheets": {
+    "Overview": 29,
+    "Context & Constraints": 70,
+    "Career Timeline": 31,
+    "Elections": 12,
+    "Offices & Party": 31,
+    "Policy & Governance": 17,
+    "Ideas & Political Method": 14,
+    "Controversies": 11,
+    "Legacy & Assessments": 9,
+    "Sources": 44,
+    "Claims": 298,
+    "Evidence": 496,
+    "Citations": 431,
+    "Research Queue": 10
+  },
+  "hyperlinks_checked": 4127,
+  "formula_checks": [
+    {
+      "sheet": "Elections",
+      "cell": "R6",
+      "formula": "=K6-M6",
+      "expected": -89325,
+      "record_id": "EL01",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "R7",
+      "formula": "=K7-M7",
+      "expected": 9660,
+      "record_id": "EL02",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "R8",
+      "formula": "=K8-M8",
+      "expected": 20500,
+      "record_id": "EL03",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "R9",
+      "formula": "=K9-M9",
+      "expected": -830,
+      "record_id": "EL04",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "R10",
+      "formula": "=K10-M10",
+      "expected": -43620,
+      "record_id": "EL05",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "R11",
+      "formula": "=K11-M11",
+      "expected": -73273,
+      "record_id": "EL06",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "R16",
+      "formula": "=K16-M16",
+      "expected": 272,
+      "record_id": "EL11",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C27",
+      "formula": "=COUNTIF(Claims!D6:D303,\"Supported\")",
+      "expected": 282,
+      "record_id": "QA01",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C28",
+      "formula": "=COUNTA(Claims!A6:A303)",
+      "expected": 298,
+      "record_id": "QA02",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C25",
+      "formula": "=COUNTIF(Elections!I6:I17,\"* / direct\")",
+      "expected": 6,
+      "record_id": "OV20",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C26",
+      "formula": "=COUNTIFS(Elections!I6:I17,\"* / direct\",Elections!D6:D17,\"Won\")",
+      "expected": 2,
+      "record_id": "OV21",
+      "column": "Finding / value"
+    }
+  ],
+  "limitations": [
+    "Research is a sourced snapshot, not an exhaustive biography.",
+    "Source S006 remains an indexed official lead; 1983 counts use inspected secondary S037 and share is omitted.",
+    "Allegations and attributed assessments are supported as reports, not established underlying truths.",
+    "Several context dimensions remain explicitly unreviewed.",
+    "Formula caches are not fabricated; applications recalculate on opening.",
+    "Application and visual checks must be rerun after every rebuild."
+  ],
+  "arithmetic_detail": {
+    "confirmed_direct_contests": 6,
+    "direct_victories": 2,
+    "direct_defeats": 4,
+    "signed_margins": [
+      -89325,
+      9660,
+      20500,
+      -830,
+      -43620,
+      -73273
+    ],
+    "vice_president_valid_ballots": 760,
+    "vice_president_invalid_ballots": 11,
+    "denominator_rule": "Valid votes for candidate shares; total polled/electorate for turnout; unresolved 1983 share omitted."
+  },
+  "application": {
+    "engine": "Numbers Creator Studio",
+    "export_sha256": "27045e045aff4987ecc93e5cac752e3183c09f36f06b477fb5702fef23053dc1",
+    "results": [
+      {
+        "record_id": "EL01",
+        "sheet": "Elections",
+        "cell": "R6",
+        "engine_value": -89325
+      },
+      {
+        "record_id": "EL02",
+        "sheet": "Elections",
+        "cell": "R7",
+        "engine_value": 9660
+      },
+      {
+        "record_id": "EL03",
+        "sheet": "Elections",
+        "cell": "R8",
+        "engine_value": 20500
+      },
+      {
+        "record_id": "EL04",
+        "sheet": "Elections",
+        "cell": "R9",
+        "engine_value": -830
+      },
+      {
+        "record_id": "EL05",
+        "sheet": "Elections",
+        "cell": "R10",
+        "engine_value": -43620
+      },
+      {
+        "record_id": "EL06",
+        "sheet": "Elections",
+        "cell": "R11",
+        "engine_value": -73273
+      },
+      {
+        "record_id": "EL11",
+        "sheet": "Elections",
+        "cell": "R16",
+        "engine_value": 272
+      },
+      {
+        "record_id": "QA01",
+        "sheet": "Overview",
+        "cell": "C27",
+        "engine_value": 282
+      },
+      {
+        "record_id": "QA02",
+        "sheet": "Overview",
+        "cell": "C28",
+        "engine_value": 298
+      },
+      {
+        "record_id": "OV20",
+        "sheet": "Overview",
+        "cell": "C25",
+        "engine_value": 6
+      },
+      {
+        "record_id": "OV21",
+        "sheet": "Overview",
+        "cell": "C26",
+        "engine_value": 2
+      }
+    ]
+  },
+  "visual": {
+    "engine": "Numbers Creator Studio",
+    "review_record": "research/m-venkaiah-naidu/qa_review.json",
+    "workbook_sha256": "2ec535c1a323b7ea6e8630bad8a9b4f9d957d16634cc2f271065914dfd4b1d70",
+    "sheets_inspected": 14,
+    "image_regions_inspected": 25,
+    "expanded_regions_inspected": 7,
+    "result": "Sampled visual inspection, not individual inspection of every cell. Temporary QA exports may expire; hashes identify the reviewed artifacts."
+  },
+  "final_integrity": {
+    "hyperlinks_checked": 4127,
+    "application_error_cells": 0,
+    "expanded_values_and_formulas_identical": true,
+    "workbook_bytes": 286608
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "subject": "M. Venkaiah Naidu",
+  "reviewed_at_utc": "2026-11-09T02:08:23.178313+00:00",
+  "workbook_sha256": "2ec535c1a323b7ea6e8630bad8a9b4f9d957d16634cc2f271065914dfd4b1d70",
+  "result": "PASS",
+  "engine": "Numbers Creator Studio",
+  "method": "Inspected raster crops of actual spreadsheet-application PDF exports, including every sheet and expanded supplementary columns. No text reflow or substituted rendering.",
+  "scope": "All 14 sheet top regions; dense Overview, Context, Claims and Evidence regions; seven expanded regions covering elections, office dates, policies, controversy responses/status, context comparisons and source limitations.",
+  "limitation": "Sampled visual inspection, not individual inspection of every cell. Temporary QA exports may expire; hashes identify the reviewed artifacts.",
+  "pdfs": [
+    {
+      "path": "/private/tmp/venkaiah-research-qa/rendered.pdf",
+      "sha256": "86317fac12c34e50399690e733ede79131671f6c77be5ab3b3ab9f7704542503"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/expanded.pdf",
+      "sha256": "f5d19a66a468bf4f051a20ef6ea90d028eec2a52d640c486506a392b3ae18b7e"
+    }
+  ],
+  "inspected_regions": [
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-1-top.png",
+      "sha256": "67965cc7041c5d53afa5ee9433b62762d6de6115a3fb3c9267c5e646e8baf466"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-2-top.png",
+      "sha256": "1ef071d87fcd6d3b03ab81e7c034d05734c04d2483bd1f82886f52e8ef1a8edc"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-3-top.png",
+      "sha256": "7b1b783ac8c96ec189ecc6e7cd555c86e5af1ac9b630b8b66d1266a30714077c"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-4-top.png",
+      "sha256": "eb9a1c3e49be6db4b37e193392793ed7cfd335a696f031c4c4098251d49d0ef5"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-5-top.png",
+      "sha256": "e63b84814bda5f648a74f5b8510931c899bdb20c0c582c654f92d14d7e799436"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-6-top.png",
+      "sha256": "54c5932baf906ffafc6068aa03b31f24bc8aa5b1f137fb3b1f68d3e2206e3b07"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-7-top.png",
+      "sha256": "0b71beaf1d175b5ca4f17cd540a688982167e9bfcbb02a747e7ca5dd48f444c2"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-8-top.png",
+      "sha256": "b1c4980047bc9ccc196020431dd00b3aa73dbf7756e85aa4a407f266b722c15c"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-9-top.png",
+      "sha256": "7ac48a97544092f16d4688b9c6a2b99b65fddc1a5d146313a2edb918f12808b1"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-10-top.png",
+      "sha256": "772f0f02ed20e739667f0bb786e58f4739078317c6a9712c36b661cb7cc829b2"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-11-top.png",
+      "sha256": "afb253072421403c75a2ea4b7de5844ca006042287a05b983e539c64f1bb733f"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-12-top.png",
+      "sha256": "5fabc7359569461de91e1fc9d95c6171cc36e7e6650041396cc41bbe1e0545d4"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-13-top.png",
+      "sha256": "b11ef8b9624e66457d48734e6f8543a9215d3b059aacd251be725c1b11937c35"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-14-top.png",
+      "sha256": "c16de955f8f44437877fbe93c11785eeb60e15245d5d3a5bc6fbab16c51f1d05"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-1-bottom.png",
+      "sha256": "ec26e005885d4722b0b55946ae05eec276373786c042648a0c73ac021987ba1a"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-2-bottom.png",
+      "sha256": "1cd0b2038659f54975bb9c2f3551a44c9adb156647f69ea13f83c19762355f99"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-11-middle.png",
+      "sha256": "7fff76aa067286c4ad9e46beb341e7e7d81be9e621e760bb3867337fe76dbdb4"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/pages/page-12-middle.png",
+      "sha256": "68af5603efa0da319966fa90e678c3f7f0f46e0e66894f9d577593da8f16d223"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/regions/region-1-page-4.png",
+      "sha256": "7ec2e09410fc16412792dbc6f643906cb72a8e1b9dadfb12ed3a06c1a942b9e7"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/regions/region-2-page-4.png",
+      "sha256": "3b1d1ff82ce52f70a6a9d49a90aeb69210d9fd1a7c7101a03f97804eae1733c0"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/regions/region-3-page-5.png",
+      "sha256": "6b594ec89e2c55012643849e268976640787b7885d17a1502e018df869879c0e"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/regions/region-4-page-6.png",
+      "sha256": "485828c2ee1a33d0b500c7372ef1726c4db20513c3613897608bc0b58bcaf986"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/regions/region-5-page-8.png",
+      "sha256": "c846d1afbf0a53ce2f3e042e6fe6be81f43a74581d2282ba7d356b46bda4ae13"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/regions/region-6-page-2.png",
+      "sha256": "518602bae7bf5ee44e887ac6b65d44945a6ff0202416cce82dccb4ff5e7b05d1"
+    },
+    {
+      "path": "/private/tmp/venkaiah-research-qa/regions/region-7-page-10.png",
+      "sha256": "88876880dad2ac6d75ca5bbea752d0958fc1fae65a4e953db154c84722e5c98d"
+    }
+  ],
+  "observations": [
+    "Wrapped text and row heights readable in inspected regions.",
+    "Expanded election counts, denominators, shares, signed margins and turnout are readable.",
+    "Expanded office dates, policy attribution and controversy procedural qualifications fit their cells.",
+    "Citation links, amber unreviewed/disputed markers and section navigation remain legible.",
+    "Some image crop boundaries cut adjacent columns intentionally; no internal cell clipping found in the inspected fields."
+  ],
+  "final_checks": {
+    "sheets": 14,
+    "hyperlinks_checked": 4127,
+    "application_formulas_passed": 11,
+    "application_error_cells": 0,
+    "expanded_values_and_formulas_identical": true
+  },
+  "substantive_review": {
+    "sources_registered": 44,
+    "sources_with_inspected_passages": 43,
+    "search_only_source": "S006",
+    "review_units": {
+      "Supported": 282,
+      "Not reviewed": 15,
+      "Disputed": 1
+    },
+    "research_queue": {
+      "Open": 9,
+      "Resolved": 1
+    },
+    "resolved": "Full official Rajya Sabha member book inspected at printed pp. 8 and 317; gaps between terms preserved.",
+    "office_dates": "Official vice-presidential profile, positions held at lines 114–116 within S001 locator lines 78–174, checked for the 2014–2017 portfolios; merger notification resolves July 2017 ministry titles.",
+    "elections": "Six confirmed direct contests. ECI party labels, constituency identities, vote units and valid-vote/turnout denominators reviewed. Alleged 1991 contest excluded; 1983 share blank pending original denominator.",
+    "attribution": "Government programme outputs are separated from personal causal effects. Allegations, responses, judicial findings, parliamentary actions and attributed assessments retain their distinct meanings."
+  }
+}
