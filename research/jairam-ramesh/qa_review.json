@@ -1,0 +1,379 @@
+{
+  "subject": "Jairam Ramesh",
+  "reviewed_at_utc": "2026-11-17T03:17:24.582841+00:00",
+  "workbook_sha256": "dd7428317cf78952b2d0a03cad60fde7c853dc6bf8f2e55b0dbbfa80a8beedca",
+  "result": "PASS",
+  "engine": "Numbers Creator Studio",
+  "method": "Visually inspected raster crops of actual Numbers PDF exports. All 14 sheet top regions inspected in four montages; expanded supporting columns and dense samples inspected separately. No synthetic spreadsheet rendering.",
+  "scope": "14 sheet top regions, Overview formula summary, gender-context rows, middle Claims and Evidence samples, and seven expanded detail regions.",
+  "limitation": "Sampled visual inspection, not every cell. Temporary exports may expire; artifact hashes preserve identity. Original workbook formulas recalculate on open; stored formula caches remain empty.",
+  "pdfs": [
+    {
+      "path": "/private/tmp/jairam-research-qa/rendered.pdf",
+      "sha256": "ebe5778a861466ddc69c7e437726f32f87409dddd647c8b3f5eea7f9f1ecd7bf"
+    },
+    {
+      "path": "/private/tmp/jairam-research-qa/expanded.pdf",
+      "sha256": "c780083ac51687d6de6c926251bdd5fd4be0b9314949d31a5844ad6e98a3d429"
+    }
+  ],
+  "inspected_regions": [
+    {
+      "file": "01-top.png",
+      "document": "rendered.pdf",
+      "page": 1,
+      "rect": [
+        0.0,
+        0.0,
+        1183.0,
+        750.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/01-top.png",
+      "sha256": "35ea561a3dcbea34a9d41ea234e61e5af8f488ff07a624efa0ed79c0e65cfbed"
+    },
+    {
+      "file": "02-top.png",
+      "document": "rendered.pdf",
+      "page": 2,
+      "rect": [
+        0.0,
+        0.0,
+        1507.0,
+        750.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/02-top.png",
+      "sha256": "1bf5503513f44d278c46b71d2993421ef84b1a1929db7e22e05fb3e0530fa4b3"
+    },
+    {
+      "file": "03-top.png",
+      "document": "rendered.pdf",
+      "page": 3,
+      "rect": [
+        0.0,
+        0.0,
+        1447.0,
+        750.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/03-top.png",
+      "sha256": "01dd371b7e290592ce01b20f54a0432e5e8c579515a36bb9cc037d0000e5b303"
+    },
+    {
+      "file": "04-top.png",
+      "document": "rendered.pdf",
+      "page": 4,
+      "rect": [
+        0.0,
+        0.0,
+        1399.0,
+        750.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/04-top.png",
+      "sha256": "4b70833340d55e180337878c9cbd27f8986334e10402669b092b7d25d05a3f07"
+    },
+    {
+      "file": "05-top.png",
+      "document": "rendered.pdf",
+      "page": 5,
+      "rect": [
+        0.0,
+        0.0,
+        1447.0,
+        750.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/05-top.png",
+      "sha256": "4dec0463e68a7f84de4a7908979486974d750783cb0a2d82555465075e98bd73"
+    },
+    {
+      "file": "06-top.png",
+      "document": "rendered.pdf",
+      "page": 6,
+      "rect": [
+        0.0,
+        0.0,
+        1243.0,
+        750.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/06-top.png",
+      "sha256": "df0dad9dd4d904fd33f163eaab17908be1e7807b3f92d6055ffd0cce27aea0f8"
+    },
+    {
+      "file": "07-top.png",
+      "document": "rendered.pdf",
+      "page": 7,
+      "rect": [
+        0.0,
+        0.0,
+        1183.0,
+        750.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/07-top.png",
+      "sha256": "0f8b47d780f948298eca79a502971b7f510808ae66e8fc523c87eac503b3859a"
+    },
+    {
+      "file": "08-top.png",
+      "document": "rendered.pdf",
+      "page": 8,
+      "rect": [
+        0.0,
+        0.0,
+        1243.0,
+        750.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/08-top.png",
+      "sha256": "c55f91f06d2e615bb25079e1dd6b6b6d8dd8146726fcd48b77beb443d2ca152a"
+    },
+    {
+      "file": "09-top.png",
+      "document": "rendered.pdf",
+      "page": 9,
+      "rect": [
+        0.0,
+        0.0,
+        1183.0,
+        750.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/09-top.png",
+      "sha256": "cec3d02e8ecbde4e375319fb2add17bf0b2b6575684309f9c088fdd44d301840"
+    },
+    {
+      "file": "10-top.png",
+      "document": "rendered.pdf",
+      "page": 10,
+      "rect": [
+        0.0,
+        0.0,
+        847.0,
+        750.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/10-top.png",
+      "sha256": "cad9d14bc1f9ffa15452c8e5fd17b77f019ef959c9acda35d313235af44769e1"
+    },
+    {
+      "file": "11-top.png",
+      "document": "rendered.pdf",
+      "page": 11,
+      "rect": [
+        0.0,
+        0.0,
+        979.0,
+        750.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/11-top.png",
+      "sha256": "420157fd87e0777a955d098fa0e778993f8447488446ac965c5abd170d84c4b1"
+    },
+    {
+      "file": "12-top.png",
+      "document": "rendered.pdf",
+      "page": 12,
+      "rect": [
+        0.0,
+        0.0,
+        1039.0,
+        750.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/12-top.png",
+      "sha256": "5873b82db0796e5b4c4e20b7e95b0cf66c3444e620c9cd9eb9acb1290f2c0a94"
+    },
+    {
+      "file": "13-top.png",
+      "document": "rendered.pdf",
+      "page": 13,
+      "rect": [
+        0.0,
+        0.0,
+        895.0,
+        750.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/13-top.png",
+      "sha256": "ef89c531a45ab3550935b45fc09d7d59f481c066d93299e7cac66a7ca2e68f5f"
+    },
+    {
+      "file": "14-top.png",
+      "document": "rendered.pdf",
+      "page": 14,
+      "rect": [
+        0.0,
+        0.0,
+        1273.0,
+        750.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/14-top.png",
+      "sha256": "4612f83041fe1dddd57631a0d05442a59956eb2a509e97a30858f0be1fc6240f"
+    },
+    {
+      "file": "01-bottom.png",
+      "document": "rendered.pdf",
+      "page": 1,
+      "rect": [
+        0.0,
+        1450.0,
+        1183.0,
+        2301.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/01-bottom.png",
+      "sha256": "f4f67dd3f04556cf8877508033f5c2c1dca993f786bcbee77745d65efe6eca1b"
+    },
+    {
+      "file": "02-gender.png",
+      "document": "rendered.pdf",
+      "page": 2,
+      "rect": [
+        0.0,
+        2800.0,
+        1507.0,
+        3627.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/02-gender.png",
+      "sha256": "21c2f2b8456e46bd879d24e53274b5851a52a35e9663f96797f74fe721784273"
+    },
+    {
+      "file": "11-middle.png",
+      "document": "rendered.pdf",
+      "page": 11,
+      "rect": [
+        0.0,
+        6500.0,
+        979.0,
+        7250.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/11-middle.png",
+      "sha256": "9c99b1ad70e4137aca79f19d8cef2fca6c110c07bb8bbf7aceeb2ead93239766"
+    },
+    {
+      "file": "12-middle.png",
+      "document": "rendered.pdf",
+      "page": 12,
+      "rect": [
+        0.0,
+        20000.0,
+        1039.0,
+        20750.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/12-middle.png",
+      "sha256": "0bd86b87d04489daf07b1dd70c938140d2309c817ad4ce11f4793010a54ea493"
+    },
+    {
+      "file": "04-counts.png",
+      "document": "expanded.pdf",
+      "page": 4,
+      "rect": [
+        1300.0,
+        140.0,
+        2600.0,
+        790.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/04-counts.png",
+      "sha256": "44039f624393f8f3a7a1f1b63cdb95b445869bfb780a1b36bdf2f2f71ebffbf3"
+    },
+    {
+      "file": "04-results.png",
+      "document": "expanded.pdf",
+      "page": 4,
+      "rect": [
+        2700.0,
+        140.0,
+        4000.0,
+        790.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/04-results.png",
+      "sha256": "cb16eb7b5b431cbe0e9da5dec5e8408d90cd5cd29ab94b78ec8f250611b4c769"
+    },
+    {
+      "file": "05-offices.png",
+      "document": "expanded.pdf",
+      "page": 5,
+      "rect": [
+        1400.0,
+        140.0,
+        2700.0,
+        890.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/05-offices.png",
+      "sha256": "7224591549766523da4eba7e8772a48911f8fad5cee7b1f4623bc78ec3a47e4d"
+    },
+    {
+      "file": "06-policy.png",
+      "document": "expanded.pdf",
+      "page": 6,
+      "rect": [
+        1300.0,
+        140.0,
+        2700.0,
+        890.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/06-policy.png",
+      "sha256": "50c97512d466b3150de0a8cb8fe3cc9ea80ef9449604469963037ad94cc061a2"
+    },
+    {
+      "file": "08-legal.png",
+      "document": "expanded.pdf",
+      "page": 8,
+      "rect": [
+        1300.0,
+        140.0,
+        2700.0,
+        790.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/08-legal.png",
+      "sha256": "0c0ef09c4d96a8a7583bfa2773f04b083d8908292c2fb046c76b32bbdc2b0513"
+    },
+    {
+      "file": "02-context.png",
+      "document": "expanded.pdf",
+      "page": 2,
+      "rect": [
+        1450.0,
+        140.0,
+        2850.0,
+        890.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/02-context.png",
+      "sha256": "72281da7f7fad018c40d8a8ab1098f2d55d11a99b6668958bd1d472b8acb93c2"
+    },
+    {
+      "file": "10-sources.png",
+      "document": "expanded.pdf",
+      "page": 10,
+      "rect": [
+        1700.0,
+        140.0,
+        2950.0,
+        890.0
+      ],
+      "path": "/private/tmp/jairam-research-qa/pages/10-sources.png",
+      "sha256": "f7243a69c27a3ec1d53df30c3a14080f7355174f5ad79ef567d735514533b240"
+    }
+  ],
+  "observations": [
+    "Wrapped text, headers and row heights fit inspected cells.",
+    "Indirect election units, withheld 2016 count and reported 2022 first-preference tally are readable.",
+    "Expanded policy columns distinguish roles, adoption and attribution limits; legal columns distinguish criticism, response and disposition.",
+    "Source limitations, citation links and amber evidence-gap markers are readable. Some crop boundaries cut adjacent cells; these are inspection crop edges."
+  ],
+  "final_checks": {
+    "sheets": 14,
+    "hyperlinks_checked": 3765,
+    "application_formulas_passed": 4,
+    "application_error_cells": 0,
+    "expanded_values_and_formulas_identical": true,
+    "xlsx_zip_integrity": "PASS"
+  },
+  "substantive_review": {
+    "sources_registered": 51,
+    "sources_with_inspected_passages": 51,
+    "review_units": {
+      "Supported": 224,
+      "Disputed": 1,
+      "Not reviewed": 13
+    },
+    "context_coverage": {
+      "phases": 4,
+      "era_items": 40,
+      "gender_items": 10
+    },
+    "open_research_queue_items": 10,
+    "elections": "Four indirect elections. Official 2016 Form 23 supports victory and date but not a count; conflicting reported counts retained and numeric count withheld. No popular vote shares or single-opponent margins invented.",
+    "chronology": "Official biography resolves Commerce/Power, Environment, Rural Development and Drinking Water additional-charge dates. National Planning Commission advisory role distinguished from Karnataka Planning Board deputy chairmanship. Current committee membership distinguished from earlier chairmanship.",
+    "policy_and_accountability": "NRLM launch predates rural ministry appointment. Niyamgiri court proceedings, POSCO suspension, Aadhaar review dismissal and Doval discharge kept procedurally distinct; allegations and policy announcements are not treated as proven wrongdoing or achieved effects."
+  }
+}

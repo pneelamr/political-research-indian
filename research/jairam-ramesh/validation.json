@@ -1,0 +1,132 @@
+{
+  "subject": "Jairam Ramesh",
+  "file": "/Users/padmaneelamraju/My Drive/Political Research by ChatGPT/Jairam_Ramesh_Political_Research.xlsx",
+  "workbook_sha256": "dd7428317cf78952b2d0a03cad60fde7c853dc6bf8f2e55b0dbbfa80a8beedca",
+  "checks": {
+    "structure": "PASS",
+    "provenance_integrity": "PASS",
+    "arithmetic": "PASS: expectations calculated independently in Python",
+    "application_recalculation": "PASS",
+    "visual_inspection": "PASS: actual Numbers PDF exports; all 14 sheets and expanded/detail samples visually inspected",
+    "substantive_review": "PASS WITH EXPLICIT GAPS: chronology, indirect elections, legislative scope, inherited programmes and legal dispositions passage-reviewed. Count discrepancy and research limitations retained."
+  },
+  "evidence": {
+    "registered_fields": 238,
+    "status_counts": {
+      "Supported": 224,
+      "Disputed": 1,
+      "Not reviewed": 13
+    },
+    "note": "These are review units, not a percentage of historical truth or complete atomic-claim coverage."
+  },
+  "sheets": {
+    "Overview": 30,
+    "Context & Constraints": 50,
+    "Career Timeline": 29,
+    "Elections": 6,
+    "Offices & Party": 26,
+    "Policy & Governance": 18,
+    "Ideas & Political Method": 12,
+    "Controversies": 7,
+    "Legacy & Assessments": 9,
+    "Sources": 51,
+    "Claims": 238,
+    "Evidence": 490,
+    "Citations": 399,
+    "Research Queue": 10
+  },
+  "hyperlinks_checked": 3765,
+  "formula_checks": [
+    {
+      "sheet": "Overview",
+      "cell": "C28",
+      "formula": "=COUNTIF(Claims!D6:D243,\"Supported\")",
+      "expected": 224,
+      "record_id": "QA01",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C29",
+      "formula": "=COUNTA(Claims!A6:A243)",
+      "expected": 238,
+      "record_id": "QA02",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C26",
+      "formula": "=COUNTIF(Elections!J6:J11,\"Rajya Sabha / indirect\")",
+      "expected": 4,
+      "record_id": "OV21",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C27",
+      "formula": "=COUNTIF(Elections!J6:J11,\"Lok Sabha / direct\")",
+      "expected": 0,
+      "record_id": "OV22",
+      "column": "Finding / value"
+    }
+  ],
+  "limitations": [
+    "Research snapshot; 2016 count and original detailed returns remain gaps.",
+    "Programme activity, announcements and laws do not by themselves establish personal causal outcomes.",
+    "Latest ECI follow-up and broader Money Bill reference disposition are unverified.",
+    "Eight gender and five era items are explicit research limitations.",
+    "Original workbook retains formulas with empty caches; recalculation is required by the viewing application.",
+    "Application and visual QA must be rerun after every rebuild."
+  ],
+  "arithmetic_detail": {
+    "confirmed_indirect_elections": 4,
+    "confirmed_direct_contests_in_register": 0,
+    "2016_count": "withheld: reports conflict",
+    "2022_count": "46 reported first-preference legislator votes",
+    "DST_recommendations": {
+      "accepted": 6,
+      "not_pursued": 6,
+      "awaiting_final_reply": 4,
+      "total": 16
+    },
+    "popular_vote_shares": "inapplicable; no fabricated denominator"
+  },
+  "application": {
+    "engine": "Numbers Creator Studio",
+    "export_sha256": "5aaa68aca18b2442e2fb0b8ff56809610145f72bc385467b0e3bdb50a4648e8b",
+    "results": [
+      {
+        "record_id": "QA01",
+        "sheet": "Overview",
+        "cell": "C28",
+        "engine_value": 224
+      },
+      {
+        "record_id": "QA02",
+        "sheet": "Overview",
+        "cell": "C29",
+        "engine_value": 238
+      },
+      {
+        "record_id": "OV21",
+        "sheet": "Overview",
+        "cell": "C26",
+        "engine_value": 4
+      },
+      {
+        "record_id": "OV22",
+        "sheet": "Overview",
+        "cell": "C27",
+        "engine_value": 0
+      }
+    ],
+    "error_cells": 0
+  },
+  "visual_review": {
+    "record": "research/jairam-ramesh/qa_review.json",
+    "workbook_sha256": "dd7428317cf78952b2d0a03cad60fde7c853dc6bf8f2e55b0dbbfa80a8beedca",
+    "regions_inspected": 25,
+    "sheets_inspected": 14,
+    "scope": "Sampled actual application rendering; not every cell"
+  }
+}
