@@ -1,0 +1,205 @@
+{
+  "subject": "K. T. Rama Rao (KTR)",
+  "file": "/Users/padmaneelamraju/My Drive/Political Research by ChatGPT/K_T_Rama_Rao_Political_Research.xlsx",
+  "workbook_sha256": "4c1a6ba02ad271963c8fd84936188edef9ff1826fa5d26380054b71a64ec2ed0",
+  "checks": {
+    "structure": "PASS",
+    "provenance_integrity": "PASS",
+    "arithmetic": "PASS: expectations calculated independently in Python",
+    "application_recalculation": "PASS",
+    "visual_inspection": "PASS: all 14 sheet top regions, 4 dense regions and 7 expanded regions inspected from Numbers exports",
+    "substantive_review": "PASS WITH EXPLICIT GAPS: five electoral victories, bifurcation chronology, interrupted ministries, inherited TS-iPASS law, outputs versus impact, and legal stages passage-reviewed. Eleven context limitations and one overview gap remain Not reviewed."
+  },
+  "evidence": {
+    "registered_fields": 258,
+    "status_counts": {
+      "Supported": 246,
+      "Not reviewed": 12
+    },
+    "note": "These are review units, not a percentage of historical truth or complete atomic-claim coverage."
+  },
+  "sheets": {
+    "Overview": 30,
+    "Context & Constraints": 50,
+    "Career Timeline": 25,
+    "Elections": 5,
+    "Offices & Party": 12,
+    "Policy & Governance": 17,
+    "Ideas & Political Method": 12,
+    "Controversies": 9,
+    "Legacy & Assessments": 8,
+    "Sources": 49,
+    "Claims": 258,
+    "Evidence": 521,
+    "Citations": 374,
+    "Research Queue": 9
+  },
+  "hyperlinks_checked": 3804,
+  "formula_checks": [
+    {
+      "sheet": "Elections",
+      "cell": "Q6",
+      "formula": "=M6-P6",
+      "expected": 171,
+      "record_id": "EL01",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "Q7",
+      "formula": "=M7-P7",
+      "expected": 68219,
+      "record_id": "EL02",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "Q8",
+      "formula": "=M8-P8",
+      "expected": 53004,
+      "record_id": "EL03",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "Q9",
+      "formula": "=M9-P9",
+      "expected": 89009,
+      "record_id": "EL04",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Elections",
+      "cell": "Q10",
+      "formula": "=M10-P10",
+      "expected": 29687,
+      "record_id": "EL05",
+      "column": "Signed vote margin"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C28",
+      "formula": "=COUNTIF(Claims!D6:D263,\"Supported\")",
+      "expected": 246,
+      "record_id": "QA01",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C29",
+      "formula": "=COUNTA(Claims!A6:A263)",
+      "expected": 258,
+      "record_id": "QA02",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C26",
+      "formula": "=COUNTIF(Elections!J6:J10,\"Assembly / direct\")",
+      "expected": 5,
+      "record_id": "OV21",
+      "column": "Finding / value"
+    },
+    {
+      "sheet": "Overview",
+      "cell": "C27",
+      "formula": "=COUNTIF(Elections!D6:D10,\"Won\")",
+      "expected": 5,
+      "record_id": "OV22",
+      "column": "Finding / value"
+    }
+  ],
+  "limitations": [
+    "Evidence cutoff 16 November 2026; rapidly changing legal statuses are not live certificates.",
+    "One source is an indexed lead only and supports no reviewed claim.",
+    "2010 and 2018 shares withheld pending original denominator reconciliation.",
+    "Five gender and six era items retain explicit research limitations.",
+    "Independent policy impact and several final court/inquiry outcomes remain open.",
+    "Original formulas retain empty caches and recalculate on open; actual application checks recorded separately."
+  ],
+  "arithmetic_detail": {
+    "election_margins": [
+      171,
+      68219,
+      53004,
+      89009,
+      29687
+    ],
+    "contests": 5,
+    "wins": 5,
+    "shares_withheld": [
+      2010,
+      2018
+    ],
+    "FY2022_23_export_increase_INR_crore": 57706,
+    "FY2022_23_employment_increase": 127594,
+    "unit_note": "Government sector totals, not a personal impact estimate."
+  },
+  "application": {
+    "engine": "Numbers Creator Studio",
+    "export_sha256": "aab8ba0446558c7e211695bb1097359cf543f7f55b2262c82a7d8afbb04aa179",
+    "results": [
+      {
+        "record_id": "EL01",
+        "sheet": "Elections",
+        "cell": "Q6",
+        "engine_value": 171
+      },
+      {
+        "record_id": "EL02",
+        "sheet": "Elections",
+        "cell": "Q7",
+        "engine_value": 68219
+      },
+      {
+        "record_id": "EL03",
+        "sheet": "Elections",
+        "cell": "Q8",
+        "engine_value": 53004
+      },
+      {
+        "record_id": "EL04",
+        "sheet": "Elections",
+        "cell": "Q9",
+        "engine_value": 89009
+      },
+      {
+        "record_id": "EL05",
+        "sheet": "Elections",
+        "cell": "Q10",
+        "engine_value": 29687
+      },
+      {
+        "record_id": "QA01",
+        "sheet": "Overview",
+        "cell": "C28",
+        "engine_value": 246
+      },
+      {
+        "record_id": "QA02",
+        "sheet": "Overview",
+        "cell": "C29",
+        "engine_value": 258
+      },
+      {
+        "record_id": "OV21",
+        "sheet": "Overview",
+        "cell": "C26",
+        "engine_value": 5
+      },
+      {
+        "record_id": "OV22",
+        "sheet": "Overview",
+        "cell": "C27",
+        "engine_value": 5
+      }
+    ]
+  },
+  "visual": {
+    "engine": "Numbers Creator Studio",
+    "review_file": "research/k-t-rama-rao/qa_review.json",
+    "regions_inspected": 25,
+    "workbook_sha256": "4c1a6ba02ad271963c8fd84936188edef9ff1826fa5d26380054b71a64ec2ed0",
+    "result": "PASS"
+  }
+}

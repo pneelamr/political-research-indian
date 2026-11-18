@@ -1,0 +1,375 @@
+{
+  "subject": "K. T. Rama Rao (KTR)",
+  "reviewed_at_utc": "2026-11-17T08:28:40.949743+00:00",
+  "workbook_sha256": "4c1a6ba02ad271963c8fd84936188edef9ff1826fa5d26380054b71a64ec2ed0",
+  "result": "PASS",
+  "engine": "Numbers Creator Studio",
+  "method": "Visual inspection of actual Numbers PDF exports; all 14 sheet top regions, four additional dense regions, and seven expanded supporting-column regions. Crops do not reflow cell contents.",
+  "limitation": "Sampled visual inspection, not every cell. Crop edges can cut adjacent cells; inspected complete cells were readable. Temporary exports may expire. Original formulas recalculate on opening; caches not manufactured.",
+  "pdfs": [
+    {
+      "path": "/private/tmp/ktr-research-qa/rendered.pdf",
+      "sha256": "192b39f731ae3bcfa439ba9560cb0f801107de070876bfa9fccb4419a9a9d3ef"
+    },
+    {
+      "path": "/private/tmp/ktr-research-qa/expanded.pdf",
+      "sha256": "184f038f82c4af5385634b5698ae3982e21dbfeffa897ce962f65391b3f6825e"
+    }
+  ],
+  "inspected_regions": [
+    {
+      "document": "rendered.pdf",
+      "page": 1,
+      "sheet": "Overview",
+      "rect_from_top": [
+        0,
+        0,
+        1183,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-1-top.png",
+      "sha256": "aa7da5d3ba1e3bc3364fe21a3fc193ff6920f6a7fdbc375fcfb899931dbdfc5d"
+    },
+    {
+      "document": "rendered.pdf",
+      "page": 2,
+      "sheet": "Context & Constraints",
+      "rect_from_top": [
+        0,
+        0,
+        1507,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-2-top.png",
+      "sha256": "466add19deb58050c537c10244dec037369593a08e82480887deb94bb66742e1"
+    },
+    {
+      "document": "rendered.pdf",
+      "page": 3,
+      "sheet": "Career Timeline",
+      "rect_from_top": [
+        0,
+        0,
+        1447,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-3-top.png",
+      "sha256": "cf3865bd44b6417212b6467f46d189064f8b30461f0d59c08391595eb55112c0"
+    },
+    {
+      "document": "rendered.pdf",
+      "page": 4,
+      "sheet": "Elections",
+      "rect_from_top": [
+        0,
+        0,
+        1399,
+        792
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-4-top.png",
+      "sha256": "4d04f30502d9c1982776a4c142b478280177b85f5bc84ffcaec0ca95f88ef4b6"
+    },
+    {
+      "document": "rendered.pdf",
+      "page": 5,
+      "sheet": "Offices & Party",
+      "rect_from_top": [
+        0,
+        0,
+        1447,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-5-top.png",
+      "sha256": "724de24b9deeeb3fe62c814021f2b510f812495e9b070c6a4824ca9f7fdcc040"
+    },
+    {
+      "document": "rendered.pdf",
+      "page": 6,
+      "sheet": "Policy & Governance",
+      "rect_from_top": [
+        0,
+        0,
+        1243,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-6-top.png",
+      "sha256": "c169a4641620b1d190520ad8573d964f72a65637718927443ddfeae4e0646ba9"
+    },
+    {
+      "document": "rendered.pdf",
+      "page": 7,
+      "sheet": "Ideas & Political Method",
+      "rect_from_top": [
+        0,
+        0,
+        1183,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-7-top.png",
+      "sha256": "7d59727f7164b14c8f71495f9716d229f4ccf29d0724e56e79c98c26173438c8"
+    },
+    {
+      "document": "rendered.pdf",
+      "page": 8,
+      "sheet": "Controversies",
+      "rect_from_top": [
+        0,
+        0,
+        1243,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-8-top.png",
+      "sha256": "ec0dde89b8183f63c04788e481b27ae9a93c8fefc247e1f08ec482a830470d25"
+    },
+    {
+      "document": "rendered.pdf",
+      "page": 9,
+      "sheet": "Legacy & Assessments",
+      "rect_from_top": [
+        0,
+        0,
+        1183,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-9-top.png",
+      "sha256": "27ae16e40bedf883fc9ee8371737fafa6dcf4928fa323ffd4b11f5af30913b95"
+    },
+    {
+      "document": "rendered.pdf",
+      "page": 10,
+      "sheet": "Sources",
+      "rect_from_top": [
+        0,
+        0,
+        847,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-10-top.png",
+      "sha256": "f07ee4303cfedd175a40aceccf8cb85cf5b7d0778812bc6dd20a1df627d94be1"
+    },
+    {
+      "document": "rendered.pdf",
+      "page": 11,
+      "sheet": "Claims",
+      "rect_from_top": [
+        0,
+        0,
+        979,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-11-top.png",
+      "sha256": "2ced9507c944d44b6101549290776ce8005344d6e474da2943bf149f6f43b74c"
+    },
+    {
+      "document": "rendered.pdf",
+      "page": 12,
+      "sheet": "Evidence",
+      "rect_from_top": [
+        0,
+        0,
+        1039,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-12-top.png",
+      "sha256": "c6128f34bbc1b577cb73d8e7bc65eedeb54853163d3dbb39e65b1a4ab357c625"
+    },
+    {
+      "document": "rendered.pdf",
+      "page": 13,
+      "sheet": "Citations",
+      "rect_from_top": [
+        0,
+        0,
+        895,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-13-top.png",
+      "sha256": "bef85cea85690875c7dd7b7eff5208d3183c620a8c1f272e02fec284297162bf"
+    },
+    {
+      "document": "rendered.pdf",
+      "page": 14,
+      "sheet": "Research Queue",
+      "rect_from_top": [
+        0,
+        0,
+        1273,
+        792
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-14-top.png",
+      "sha256": "d05d76a4699c45d832533924fd9b8f2ec32a61f3274b771fc0c832e0c7128ec9"
+    },
+    {
+      "document": "rendered.pdf",
+      "page": 1,
+      "sheet": "Overview",
+      "rect_from_top": [
+        0,
+        1563,
+        1183,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-1-bottom.png",
+      "sha256": "2c508af921d40c9b131feb90c74abb6eae6af27fbefbaa7eb02fd5a83fe4720e"
+    },
+    {
+      "document": "rendered.pdf",
+      "page": 2,
+      "sheet": "Context & Constraints",
+      "rect_from_top": [
+        0,
+        2673,
+        1507,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-2-bottom.png",
+      "sha256": "68aee43becfabbf1efbc7e750a6dc6caddf7b27d5188221e8a4a4361f460aca4"
+    },
+    {
+      "document": "rendered.pdf",
+      "page": 11,
+      "sheet": "Claims",
+      "rect_from_top": [
+        0,
+        7202.5,
+        979,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-11-middle.png",
+      "sha256": "07db68f965352a648d6a5c501d2a04e95b3284d1a8cfe83b85be6c0ec216e32c"
+    },
+    {
+      "document": "rendered.pdf",
+      "page": 12,
+      "sheet": "Evidence",
+      "rect_from_top": [
+        0,
+        19350.5,
+        1039,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/pages/page-12-middle.png",
+      "sha256": "fdd9f472fe175e739670ed12c28f43bd13268ffa87f2c09e9221918f9fee6f35"
+    },
+    {
+      "document": "expanded.pdf",
+      "page": 4,
+      "sheet": "Elections",
+      "rect_from_top": [
+        2200,
+        130,
+        1350,
+        650
+      ],
+      "path": "/private/tmp/ktr-research-qa/regions/region-1-page-4.png",
+      "sha256": "eb164f58aabcc562b1f0638c4fd5d41c72683bde06199cbbed39b8e1733f50b8"
+    },
+    {
+      "document": "expanded.pdf",
+      "page": 4,
+      "sheet": "Elections",
+      "rect_from_top": [
+        3250,
+        130,
+        1400,
+        650
+      ],
+      "path": "/private/tmp/ktr-research-qa/regions/region-2-page-4.png",
+      "sha256": "c56e1182c4de6193e7d26dd270393335142bdb606223328f247c1361e5290224"
+    },
+    {
+      "document": "expanded.pdf",
+      "page": 5,
+      "sheet": "Offices & Party",
+      "rect_from_top": [
+        1350,
+        130,
+        1500,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/regions/region-3-page-5.png",
+      "sha256": "5acbe5bc0439d5bc23444b44bc869f8f0f1fd31a550372432b191e08f24ab0db"
+    },
+    {
+      "document": "expanded.pdf",
+      "page": 6,
+      "sheet": "Policy & Governance",
+      "rect_from_top": [
+        1110,
+        130,
+        1250,
+        1000
+      ],
+      "path": "/private/tmp/ktr-research-qa/regions/region-4-page-6.png",
+      "sha256": "2ad16d365f8fbd9733d5ceac16b0bae712d7603c6f006d9507df13a9a5955397"
+    },
+    {
+      "document": "expanded.pdf",
+      "page": 8,
+      "sheet": "Controversies",
+      "rect_from_top": [
+        1110,
+        130,
+        1500,
+        680
+      ],
+      "path": "/private/tmp/ktr-research-qa/regions/region-5-page-8.png",
+      "sha256": "751258803481deffb2374f964cfb38c2a85b61677d7b1d132b7be574452baf73"
+    },
+    {
+      "document": "expanded.pdf",
+      "page": 2,
+      "sheet": "Context & Constraints",
+      "rect_from_top": [
+        1380,
+        130,
+        1300,
+        800
+      ],
+      "path": "/private/tmp/ktr-research-qa/regions/region-6-page-2.png",
+      "sha256": "e2b2b3befd3482265a85fa52dd0a5176db49b611e31a1d836c8fa36f5411d86b"
+    },
+    {
+      "document": "expanded.pdf",
+      "page": 10,
+      "sheet": "Sources",
+      "rect_from_top": [
+        1800,
+        130,
+        1150,
+        1000
+      ],
+      "path": "/private/tmp/ktr-research-qa/regions/region-7-page-10.png",
+      "sha256": "8304ecac859b7caa5428b66dd9066aa2b158295d1cf9993131e417d41fa58b22"
+    }
+  ],
+  "observations": [
+    "All 14 sheet headers, findings, review markers and citation navigation readable.",
+    "Five election margins and three published shares display correctly; two unresolved shares remain blank with explanation.",
+    "Expanded policy and legal columns distinguish roles, implementation, attribution limits, responses and procedural stages.",
+    "Source access limitations and the gender/era research-gap markers remain visible."
+  ],
+  "final_checks": {
+    "sheets": 14,
+    "hyperlinks_checked": 3804,
+    "application_formulas_passed": 9,
+    "application_error_cells": 0,
+    "expanded_values_and_formulas_identical": true,
+    "xlsx_zip_integrity": "PASS"
+  },
+  "substantive_review": {
+    "sources": 49,
+    "passage_inspected_sources": 48,
+    "indexed_lead_only": 1,
+    "review_units": {
+      "Supported": 246,
+      "Not reviewed": 12
+    },
+    "era_items": 40,
+    "gender_items": 10,
+    "open_queue_items": 9,
+    "chronology": "Five wins including 2010; 2014 poll before state formation; 2018–2019 ministerial gap retained; TRS/BRS rename is not party switch.",
+    "accountability": "Formula E prosecution and pending discharge distinguished from conviction; November surveillance reports still prospective. Separate defamation complainants not conflated.",
+    "policy": "Inherited TS-iPASS statute, nominal IT outputs, local weaving testimony and women-focused institution design separated from causal impact."
+  }
+}

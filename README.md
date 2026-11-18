@@ -11,6 +11,7 @@ Source-backed Excel research workbooks on Indian political figures, covering the
 | Jyotiraditya Scindia | [Scindia political research](Jyotiraditya_Scindia_Political_Research.xlsx) | 4 October 2026 |
 | J. Jayalalithaa | [Jayalalithaa political research](J_Jayalalithaa_Political_Research.xlsx) | 26 October 2026 |
 | K. Chandrashekar Rao (KCR) | [KCR political research](KCR_Political_Research.xlsx) | 15 September 2026 |
+| K. T. Rama Rao (KTR) | [KTR political research](K_T_Rama_Rao_Political_Research.xlsx) | 16 November 2026 |
 | L. K. Advani | [Advani political research](L_K_Advani_Political_Research.xlsx) | 21 October 2026 |
 | M. G. Ramachandran (MGR) | [MGR political research](M_G_Ramachandran_Political_Research.xlsx) | 25 October 2026 |
 | M. Karunanidhi | [Karunanidhi political research](M_Karunanidhi_Political_Research.xlsx) | 14 September 2026 |
@@ -31,12 +32,12 @@ Research dates indicate each workbook's stated cutoff or evidence-access date, n
 
 1. Download a workbook and open it in an application that supports `.xlsx` files, such as Microsoft Excel or LibreOffice Calc.
 2. Start with **Overview**, then use the detailed worksheets and table filters to explore a topic or career phase.
-3. Follow each record's source IDs to **Sources** for citations, links, and evidence limitations. Source IDs are local to each workbook. In the Vajpayee, Rahul Gandhi, Nirmala Sitharaman, Mamata Banerjee, Jyotiraditya Scindia, Sushma Swaraj, L. K. Advani, M. G. Ramachandran, J. Jayalalithaa, N. Chandrababu Naidu, Rajiv Gandhi, M. Venkaiah Naidu, Shashi Tharoor and Jairam Ramesh workbooks, **All citations** opens every cited source link and **Claims** shows which fields have passage evidence.
-4. Read claim types, procedural status, and qualification notes alongside the findings. In those fourteen workbooks, expand the **+** column group for supporting fields; the initial view prioritizes findings and review status.
+3. Follow each record's source IDs to **Sources** for citations, links, and evidence limitations. Source IDs are local to each workbook. In the Vajpayee, Rahul Gandhi, Nirmala Sitharaman, Mamata Banerjee, Jyotiraditya Scindia, Sushma Swaraj, L. K. Advani, M. G. Ramachandran, J. Jayalalithaa, N. Chandrababu Naidu, Rajiv Gandhi, M. Venkaiah Naidu, Shashi Tharoor, Jairam Ramesh and KTR workbooks, **All citations** opens every cited source link and **Claims** shows which fields have passage evidence.
+4. Read claim types, procedural status, and qualification notes alongside the findings. In those fifteen workbooks, expand the **+** column group for supporting fields; the initial view prioritizes findings and review status.
 
 ## Workbook structure
 
-All eighteen workbooks listed above contain these worksheets; column layouts and depth vary by subject.
+All nineteen workbooks listed above contain these worksheets; column layouts and depth vary by subject.
 
 | Worksheet | Coverage |
 | --- | --- |
@@ -88,6 +89,8 @@ M. Venkaiah Naidu’s [research records](research/m-venkaiah-naidu/research.json
 Shashi Tharoor’s [research records](research/shashi-tharoor/research.json) and [retrieval register](research/shashi-tharoor/retrievals.json) cover four phases, four Lok Sabha victories, the 2022 Congress presidential ballot and a separately qualified UN Secretary-General candidature. The 44-source register contains 43 inspected sources and one indexed lead. Of 202 registered fields, 186 have passage support or bounded synthesis, five are partially supported and 11 remain unreviewed. Nine research-queue entries preserve gaps in committee dates, original 2019 returns, current litigation outcomes, policy effects and gender evidence. Election share denominators are explicit; the 2021 judicial discharge is distinguished from acquittal after trial and subsequent revision. The [validation report](research/shashi-tharoor/validation.json) records 14 formula checks in Numbers and visual inspection of all 14 sheets, with the inspected regions in [qa_review.json](research/shashi-tharoor/qa_review.json). His `build.py` regenerates the records and workbook and resets application and visual checks.
 
 Jairam Ramesh’s [research records](research/jairam-ramesh/research.json) and [retrieval register](research/jairam-ramesh/retrievals.json) cover four career phases, four Rajya Sabha elections and 51 inspected sources. Of 238 registered fields, 224 have passage support or bounded synthesis, one is disputed and 13 remain unreviewed. Ten research-queue entries preserve gaps in original election returns, precise office boundaries, policy effects, later proceedings and historical context. The 2016 vote count is withheld because reports conflict; the official declaration confirms victory and date. Ministerial actions, inherited programmes and subsequent judicial decisions are distinguished. The [validation report](research/jairam-ramesh/validation.json) records four formula checks in Numbers and visual inspection of all 14 sheets, with sampled regions in [qa_review.json](research/jairam-ramesh/qa_review.json). His `build.py` regenerates the records and workbook and resets application and visual checks.
+
+K. T. Rama Rao’s [research records](research/k-t-rama-rao/research.json) and [retrieval register](research/k-t-rama-rao/retrievals.json) cover four career phases and all five Sircilla victories, including the 2010 by-election. The register contains 49 sources (48 passage-inspected and one indexed lead), 246 supported fields or bounded syntheses, and 12 explicit unreviewed gaps. Nine research-queue entries retain unresolved vote-share denominators, tenure boundaries, policy effects and later legal outcomes. The ministerial interruption in 2018–2019 is preserved; party renaming is distinguished from switching parties, and proposed phone-surveillance charges are distinguished from a filed chargesheet. The [validation report](research/k-t-rama-rao/validation.json) records nine formula checks in Numbers and sampled visual inspection of all 14 sheets. His `build.py` regenerates the workbook and resets application and visual checks.
 
 With Python 3.10+ and the dependencies in `requirements-research.txt` installed:
 
